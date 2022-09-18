@@ -17,8 +17,8 @@
 		"hateHello": "What do you want?",
 		"tradeRequest": "We both stand to gain from this.",*/
 
-		"outerColor": [89, 115, 96],
-		"innerColor": [100, 100, 255],
+		"outerColor": [255, 255, 255],
+		"innerColor": [50, 50, 50],
 		"style": "",
 		"uniqueName": "Determination",
 		"uniques": [
