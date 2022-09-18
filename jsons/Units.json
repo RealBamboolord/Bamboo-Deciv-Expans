@@ -19,6 +19,7 @@
 			"[-25]% Strength <vs cities> <when attacking>",
 			"May withdraw before melee ([75]%)",
 			"Never appears as a Barbarian unit"
+			"Consumes [1] [Power]",
 		],
 		"promotions": ["Automated"]
 		"hurryCostModifier": 20,
