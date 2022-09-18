@@ -8,7 +8,7 @@
 		"interceptRange": 1,
 		"movement": 4,
 		"strength": 12,
-		"rangedStrength": 24,
+		"rangedStrength": 18,
 		"cost": 55,
 		"requiredTech": "Steel",
 		"obsoleteTech": "Gyroscopes",
