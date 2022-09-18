@@ -23,6 +23,7 @@
 		"uniqueName": "Determination",
 		"uniques": [
 			"Cannot grow cities naturally with Food",
+			"Can artificially create people with unique buildings",
 			"[Personnel] units gain the [Gas Mask] promotion",
 			"[Personnel] units gain the [Automated] promotion",
 			"Cannot build [Low Tech] units",
