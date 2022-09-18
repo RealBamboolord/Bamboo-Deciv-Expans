@@ -1,0 +1,17 @@
+[
+  {
+		"name": "Mechanized Core",
+		"isNationalWonder": true,
+    "replaces": "Bomb Shelter",
+    "uniqueTo": "The Mechanized",
+		"production": 5,
+		"cityHealth": 400,
+		"science": 4,
+		"gold": 2,
+		"cost": 1,
+		"uniques": ["Indicates the capital city"]
+	},
+  
+  
+  
+  ]
