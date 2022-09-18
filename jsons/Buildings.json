@@ -58,9 +58,10 @@
 		   	"Provides [8] [Power]",
 			"[+2] population [in this city]",
 			"[-10]% Unhappiness from [Population] [in all cities]",
+			"Unsellable",
 			"Only available <if [Search for Survivors] is constructed>",
 			"Can only be built [in capital]",
-			"Only available <in cities without a [Rally Station]>",
+			"Only available <in cities without a [Mass Breedery]>",
 			"Destroyed when the city is captured"
 		   
 		]
@@ -76,9 +77,10 @@
 			"[+2] population [in this city]",
 			"[+2] population [in all cities]",
 			"Cost increases by [50] per owned city",
+			"Unsellable",
 			"Only available <if [Search for Survivors] is constructed>",
 			"Can only be built [in capital]",
-			"Only available <in cities without a [Gideon Scanner]>",
+			"Only available <in cities without a [Mass Energizer]>",
 			"Destroyed when the city is captured"
 			
 		]
