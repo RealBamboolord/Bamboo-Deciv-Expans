@@ -11,7 +11,25 @@
 		"cost": 1,
 		"uniques": ["Indicates the capital city"]
 	},
-  
+  {
+		"name": "Solar Power AI",
+		"isWonder": true,
+		"uniqueTo": "The Mechanized",
+		"happiness": 5,
+		"cost": 1,
+		"uniques": [
+			"Provides [8] [Power]",
+			"Free [Blimp] appears",
+			"Free [Guided Missile] appears",
+			"Can only be built [in capital]",
+		],
+		"quote": "If an Artificial Intelligence could bring as through the fallout of a contaminated desert, they can surely lead us on our way to make to wasteland usable again.",
+		"civilopediaText": [
+			{
+				"text": "If an Artificial Intelligence could bring as through the fallout of a contaminated desert, they can surely lead us on our way to make to wasteland usable again.",
+			},
+		]
+	},
   
   
   ]
