@@ -30,6 +30,21 @@
 			},
 		]
 	},
-  
+	//[in all cities]
+	//[in this city]
+	//"[+1] population [cityfilter]",
+  	{
+		"name": "Artificial Feedery",
+    		"replaces": "Ranch",
+    		"uniqueTo": "The Mechanized",
+		"requiredNearbyImprovedResources": ["Cattle", "Goats", "Furs", "Insects"]
+		"food": 1,
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"[+1] population [in this city]",
+		],
+		"requiredTech": "Redomestication"
+	},
   
   ]
