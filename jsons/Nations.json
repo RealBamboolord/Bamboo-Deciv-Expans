@@ -1,7 +1,7 @@
 [
 {
 		"name": "The Mechanized",
-		"leaderName": "2.1Command Kx4Ra320",
+		"leaderName": "Command",
 		"adjective": ["Bot"],
 		"startBias": ["Desert"],
 		"preferredVictoryType": "Scientific",
@@ -20,21 +20,14 @@
 		"outerColor": [207, 130, 78],
 		"innerColor": [133, 210, 0],
 		"style": "",
-		"uniqueName": "Determination",
+		"uniqueName": "Synthetic Mankind",
 		"uniques": [
 			"Cannot grow cities naturally with Food",
 			"Can artificially create people with unique buildings",
 			"[Personnel] units gain the [Gas Mask] promotion",
 			"[Personnel] units gain the [Automated] promotion",
 			"Cannot build [Low Tech] units",
-			"[-100]% growth [in all cities]",
-			"[-25]% growth [in all cities] <after adopting [Planned Economy]>",
-			"[-10]% growth [in capital] <after adopting [Centralization]>",
-			"[-10]% growth [in all cities] <after adopting [Adaptation Complete]>",
-			"[-10]% growth [in all cities] <after adopting [Civil Society]>",
-			"[-10]% growth [in all cities] <after adopting [Protected Speech]>",
-			"[-20]% growth [in all cities] <after adopting [Public Good]>",
-			
+			"Nullifies Growth [in all cities]",
 		],
 		"cities": [
 			"AxFG23 Vault",
