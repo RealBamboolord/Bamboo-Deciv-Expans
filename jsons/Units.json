@@ -1,8 +1,8 @@
 [
   {
 		"name": "Gunner Drone",
-    "replaces": "Blimp",
-    "uniqueTo": "The Mechanized",
+    		"replaces": "Blimp",
+    		"uniqueTo": "The Mechanized",
 		"unitType": "Helicopter",
 		"range": 1,
 		"interceptRange": 1,
@@ -10,7 +10,7 @@
 		"strength": 12,
 		"rangedStrength": 18,
 		"cost": 55,
-		"requiredTech": "Steel",
+		"requiredTech": "Construction",
 		"obsoleteTech": "Gyroscopes",
 		"upgradesTo": "Helicopter",
 		"uniques": [
