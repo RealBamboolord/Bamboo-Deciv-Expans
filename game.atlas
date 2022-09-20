@@ -6,7 +6,7 @@ filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
 BuildingIcons/Artificial Feedery
   rotate: false
-  xy: 628, 104
+  xy: 836, 104
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -20,7 +20,14 @@ BuildingIcons/Bio Material Recycling
   index: -1
 BuildingIcons/Black Smoker
   rotate: false
-  xy: 736, 104
+  xy: 944, 104
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Control Router
+  rotate: false
+  xy: 1052, 104
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -34,14 +41,14 @@ BuildingIcons/Life Creation Lab
   index: -1
 BuildingIcons/Mass Breedery
   rotate: false
-  xy: 952, 104
+  xy: 1268, 104
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Mass Energizer
   rotate: false
-  xy: 1060, 104
+  xy: 1376, 104
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -55,28 +62,28 @@ BuildingIcons/Mechanized Core
   index: -1
 BuildingIcons/Solar Power AI
   rotate: false
-  xy: 1168, 104
-  size: 100, 100
-  orig: 100, 100
+  xy: 628, 4
+  size: 200, 200
+  orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Track Survivors
   rotate: false
-  xy: 1384, 104
+  xy: 1592, 104
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/The Mechanized
   rotate: false
-  xy: 1276, 104
+  xy: 1484, 104
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Gunner Drone
   rotate: false
-  xy: 844, 104
+  xy: 1160, 104
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
