@@ -22,12 +22,24 @@
 			"Free [Gunner Drone] appears",
 			"Free [Guided Missile] appears",
 			"Can only be built [in capital]",
+			"[+1] population [in this city]",
+			"Gain a free [Life Creation Lab] [in this city]"
 		],
 		"quote": "If an Artificial Intelligence could bring as through the fallout of a contaminated desert, they can surely lead us on our way to make to wasteland usable again.",
 		"civilopediaText": [
 			{
 				"text": "If an Artificial Intelligence could bring as through the fallout of a contaminated desert, they can surely lead us on our way to make to wasteland usable again.",
 			},
+		]
+	},
+	{
+		"name": "Track Survivors",
+		"replaces": "Search for Survivors",
+		"uniqueTo": "The Mechanized",
+		"cost": 30,
+		"isNationalWonder": true,
+		"uniques": [
+			"[+3] population [in this city]",
 		]
 	},
 	//[in all cities]
@@ -45,6 +57,7 @@
 			"[+1] population [in this city]",
 			"Unsellable",
 			"Destroyed when the city is captured",
+			"Only available <in cities with a [Life Creation Lab]>",
 		],
 		"requiredTech": "Redomestication"
 	},
@@ -56,11 +69,13 @@
 		"requiredNearbyImprovedResources": ["Tubers", "Grain", "Fungus"]
 		"uniques": [
 			"[+2] population [in this city]",
+			"Only available <in cities with a [Life Creation Lab]>",
 		],
 		"maintenance": 1,
 		"hurryCostModifier": 25,
 		"requiredTech": "Botany"
 	},
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
   	{
 		"name": "Mass Energizer",
 		"replaces": "Congress",
@@ -72,7 +87,7 @@
 			"[+2] population [in this city]",
 			"[-10]% Unhappiness from [Population] [in all cities]",
 			"Unsellable",
-			"Only available <if [Search for Survivors] is constructed>",
+			"Only available <if [Life Creation Lab] is constructed>",
 			"Can only be built [in capital]",
 			"Only available <in cities without a [Mass Breedery]>",
 			"Destroyed when the city is captured"
@@ -91,11 +106,84 @@
 			"[+2] population [in all cities]",
 			"Cost increases by [50] per owned city",
 			"Unsellable",
-			"Only available <if [Search for Survivors] is constructed>",
+			"Only available <if [Life Creation Lab] is constructed>",
 			"Can only be built [in capital]",
 			"Only available <in cities without a [Mass Energizer]>",
 			"Destroyed when the city is captured"
 			
 		]
+	},
+	{
+		"name": "Life Creation Lab",
+		"cost": 50,
+		"replaces": "Hospital",
+		"uniqueTo": "The Mechanized",
+		"science": -1,
+		"maintenance": 1,
+		"hurryCostModifier": 0,
+		"requiredTech": "Biology",
+		"uniques": [
+			"[+1] population [in this city]",
+			"[+1 Happiness, +1 Science] [in this city] <with [Harvested Organs]>",
+			"Consumes [1] [Power]"
+		]
+	},
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+	{
+		"name": "Enslave Inferiors",
+		"uniqueTo": "The Mechanized",
+		"replaces": "Prison Camp",
+		"science": 1,
+		"hurryCostModifier": -25,
+		"cost": 20,
+		"uniques": [
+			"Unsellable",
+			"Remove extra unhappiness from annexed cities",
+			"Can only be built [in annexed cities]",
+			"Requires at least [3] population"
+			"Provides [4] [Slaves]",
+			"[-2] population [in this city]",
+			"Only available <in cities without a [Listening Post]>",
+			"Destroyed when the city is captured"
+		],
+		"requiredTech": "Construction"
+	},
+	{
+		"name": "Control Router",
+		"uniqueTo": "The Mechanized",
+		"replaces": "Listening Post",
+		"cost": 125,
+		"maintenance": 1,
+		"happiness": 1,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"Unsellable",
+		    	"Consumes [1] [Power]",
+			"[+1] population [in this city]",
+			"Remove extra unhappiness from annexed cities",
+			"[+2 Happiness] [in this city] <after adopting [Constitution]>",
+			"Only available <in cities without a [Enslave Inferiors]>",
+			"Destroyed when the city is captured"
+		],
+		"requiredTech": "Networking"
+	},
+		{
+		"name": "Integrate Enslaved Into Society",
+		"uniqueTo": "The Mechanized",
+		"replaces": "Town Hall",
+		"cost": 120,
+		"happiness": 4,
+		"hurryCostModifier": 45,
+		"uniques": [
+			"[+1 Culture] per [4] population [in this city]",
+			"Unsellable",
+		    	"Consumes [2] [Slaves]",
+			"Only available <if [Enslave Inferiors] is constructed>"
+			"[+2] population [in this city]",
+			"Remove extra unhappiness from annexed cities",
+			"Only available <after adopting [Civil Society]>",
+			"Destroyed when the city is captured"
+		],
+		"requiredTech": "Civil Service"
 	},
   ]
