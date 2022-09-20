@@ -186,4 +186,23 @@
 		],
 		"requiredTech": "Civil Service"
 	},
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+	{
+		"name": "Black Smoker",
+		"uniqueTo": "The Mechanized",
+		"replaces": "Coal Plant",
+		"specialistSlots": { "Engineer": 2 },
+		"maintenance": 5,
+		"cost": 300,
+		"hurryCostModifier": 30,
+		"percentStatBonus": { "food": -30 },
+		"uniques": [
+			"Provides [12] [Power]",
+			"Consumes [3] [Coal]",
+			"Only available <in cities without a [Nuclear Plant]>","Only available <in cities without a [Recycling Plant]>",
+			"Only available <in cities with a [Library]>"
+			"[+2 Production] [in this city] <with [Coal]>",
+		],
+		"requiredTech": "Steam Power"
+	},
   ]
