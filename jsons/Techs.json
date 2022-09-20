@@ -1,0 +1,25 @@
+[
+  {
+		"columnNumber": 10,
+		"era": "Industrial era",
+		"techCost": 3500,
+		"buildingCost": 500,
+		"wonderCost": 1060,
+		"techs": [
+			{
+				"name": "Networking",
+				"row": 4,
+				"prerequisites": ["Computers","Radio"],
+				"quote": "In a real sense, the empires of old collapsed under their own weight; vast hierarchies of bureacrats, functionaries with no function, leaders without legitimacy. They could not adapt, not even to save themselves. From their ashes, we are building a new State; lean, strong, and vital." //
+			},
+			{
+				"name": "Avionics",
+				"row": 6,
+				"prerequisites": ["Radar", "Gyroscopes", "Computers"],
+				"quote": "In the end, that's what this election is about. Do we participate in a politics of cynicism, or do we participate in a politics of hope?"
+			}
+		]
+	},
+  
+  
+  ]
