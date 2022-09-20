@@ -115,7 +115,7 @@
 	},
 	{
 		"name": "Life Creation Lab",
-		"cost": 50,
+		"cost": 40,
 		"replaces": "Hospital",
 		"uniqueTo": "The Mechanized",
 		"science": -1,
