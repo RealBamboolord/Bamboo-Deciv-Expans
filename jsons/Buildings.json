@@ -51,6 +51,7 @@
 	{
 		"name": "Bio Material Recycling",
 		"replaces": "Greenhouse",
+    		"uniqueTo": "The Mechanized",
 		"food": 4,
 		"requiredNearbyImprovedResources": ["Tubers", "Grain", "Fungus"]
 		"uniques": [
