@@ -49,7 +49,7 @@
 		"requiredTech": "Redomestication"
 	},
 	{
-		"name": "Bio material Recycling",
+		"name": "Bio Material Recycling",
 		"replaces": "Greenhouse",
 		"food": 4,
 		"requiredNearbyImprovedResources": ["Tubers", "Grain", "Fungus"]
