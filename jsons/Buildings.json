@@ -167,6 +167,7 @@
 		],
 		"requiredTech": "Networking"
 	},
+/////////////////////////////Policy replacements////////////////////////////////////////
 		{
 		"name": "Integrate Enslaved Into Society",
 		"uniqueTo": "The Mechanized",
@@ -185,6 +186,18 @@
 			"Destroyed when the city is captured"
 		],
 		"requiredTech": "Civil Service"
+	},
+	{
+		"name": "Centralized Lifestock",
+		"uniqueTo": "The Mechanized",
+		"cost": 50,
+		"uniques": [
+			"Only available <after adopting [Centralization]>",
+			"Consumes [1] [Power]"
+			"[+3] population [in this city]",
+			"Destroyed when the city is captured",
+			"Can only be built [in capital]",
+		]
 	},
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 	{
