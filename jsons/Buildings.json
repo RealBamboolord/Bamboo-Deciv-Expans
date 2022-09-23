@@ -49,7 +49,7 @@
 		"name": "Artificial Feedery",
     		"replaces": "Ranch",
     		"uniqueTo": "The Mechanized",
-		"requiredNearbyImprovedResources": ["Cattle", "Goats", "Furs", "Insects"]
+		"requiredNearbyImprovedResources": ["Cattle", "Goats", "Insects"]
 		"food": 1,
 		"maintenance": 1,
 		"hurryCostModifier": 25,
@@ -58,6 +58,38 @@
 			"Unsellable",
 			"Destroyed when the city is captured",
 			"Only available <in cities with a [Life Creation Lab]>",
+		],
+		"requiredTech": "Redomestication"
+	},
+	{
+		"name": "Camp  Of Creation",
+    		"uniqueTo": "The Mechanized",
+		"requiredNearbyImprovedResources": ["Deer", "Hogs", "Furs"]
+		"food": 1,
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"[+1] population [in this city]",
+			"Unsellable",
+			"Destroyed when the city is captured",
+			"Only available <in cities with a [Life Creation Lab]>",
+			"Will not be displayed in Civilopedia",
+		],
+		"requiredTech": "Redomestication"
+	},
+	{
+		"name": "Salvage Ocean Food",
+    		"uniqueTo": "The Mechanized",
+		"requiredNearbyImprovedResources": ["Plankton", "Jellyfish", "Algae"]
+		"food": 1,
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"[+1] population [in this city]",
+			"Unsellable",
+			"Destroyed when the city is captured",
+			"Only available <in cities with a [Life Creation Lab]>",
+			"Will not be displayed in Civilopedia",
 		],
 		"requiredTech": "Redomestication"
 	},
