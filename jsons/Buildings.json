@@ -390,10 +390,11 @@
 		"cost": 50,
 		"uniques": [
 			"Only available <after adopting [Centralization]>",
-			"Consumes [1] [Power]"
+			"Consumes [1] [Power]",
 			"[+3] population [in this city]",
 			"Destroyed when the city is captured",
 			"Can only be built [in capital]",
+			"Unsellable",
 		]
 	},
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -414,5 +415,22 @@
 			"[+2 Production] [in this city] <with [Coal]>",
 		],
 		"requiredTech": "Steam Power"
+	},
+	{
+		"name": "Cleaner Nucleator",
+		"uniqueTo": "The Mechanized",
+		"replaces": "Water Plant",
+		"percentStatBonus": { "gold": 5 },
+		"maintenance": 0,
+		"uniques": [
+			"[+2] population [in this city]",
+			"[+1 Gold] from [Uranium] tiles [in this city]",
+			"[+1 Gold] from [Power] tiles [in this city]",
+			"Consumes [1] [Power]",
+			"Consumes [1] [Uranium]",
+			"Unsellable",
+		],
+		"hurryCostModifier": 25,
+		"requiredTech": "Decontamination"
 	},
   ]
