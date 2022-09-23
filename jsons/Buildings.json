@@ -107,6 +107,171 @@
 		"hurryCostModifier": 25,
 		"requiredTech": "Botany"
 	},
+	{
+		"name": "Exotic Brew Slt",
+    		"uniqueTo": "The Mechanized",
+		"cost": 1,
+		"food": 1,
+		"hurryCostModifier": 25,
+		"uniques": [
+		    	"Consumes [1] [Salt]",
+			"[+1] population [in this city]",
+			"Unsellable",
+			"Destroyed when the city is captured",
+			"Will not be displayed in Civilopedia",
+		],
+		"requiredTech": "Redomestication"
+	},
+	{
+		"name": "Exotic Brew HF",
+    		"uniqueTo": "The Mechanized",
+		"cost": 1,
+		"food": 1,
+		"hurryCostModifier": 25,
+		"uniques": [
+		    	"Consumes [1] [Hostile Fauna]",
+			"[+1] population [in this city]",
+			"Unsellable",
+			"Destroyed when the city is captured",
+			"Will not be displayed in Civilopedia",
+		],
+		"requiredTech": "Redomestication"
+	},
+	{
+		"name": "Exotic Brew Hny",
+    		"uniqueTo": "The Mechanized",
+		"cost": 1,
+		"food": 1,
+		"hurryCostModifier": 25,
+		"uniques": [
+		    	"Consumes [1] [Honey]",
+			"[+1] population [in this city]",
+			"Unsellable",
+			"Destroyed when the city is captured",
+			"Will not be displayed in Civilopedia",
+		],
+		"requiredTech": "Redomestication"
+	},
+	{
+		"name": "Exotic Brew Med",
+    		"uniqueTo": "The Mechanized",
+		"cost": 1,
+		"food": 6,
+		"hurryCostModifier": 25,
+		"uniques": [
+		    	"Consumes [1] [Medicine]",
+			"[+4] population [in this city]",
+			"Unsellable",
+			"Destroyed when the city is captured",
+			"Will not be displayed in Civilopedia",
+		],
+		"requiredTech": "Redomestication"
+	},
+	{
+		"name": "Exotic Brew T",
+    		"uniqueTo": "The Mechanized",
+		"cost": 1,
+		"food": 1,
+		"hurryCostModifier": 25,
+		"uniques": [
+		    	"Consumes [1] [Tea Leaves]",
+			"[+1] population [in this city]",
+			"Unsellable",
+			"Destroyed when the city is captured",
+			"Will not be displayed in Civilopedia",
+		],
+		"requiredTech": "Redomestication"
+	},
+	{
+		"name": "Exotic Brew Sd",
+    		"uniqueTo": "The Mechanized",
+		"cost": 1,
+		"food": 1,
+		"hurryCostModifier": 25,
+		"uniques": [
+		    	"Consumes [1] [Exotic Seeds]",
+			"[+1] population [in this city]",
+			"Unsellable",
+			"Destroyed when the city is captured",
+			"Will not be displayed in Civilopedia",
+		],
+		"requiredTech": "Redomestication"
+	},
+	{
+		"name": "Exotic Brew Nrc",
+    		"uniqueTo": "The Mechanized",
+		"cost": 1,
+		"food": 1,
+		"hurryCostModifier": 25,
+		"uniques": [
+		    	"Consumes [1] [Narcotics]",
+			"[+1] population [in this city]",
+			"Unsellable",
+			"Destroyed when the city is captured",
+			"Will not be displayed in Civilopedia",
+		],
+		"requiredTech": "Redomestication"
+	},
+	{
+		"name": "Exotic Brew RFN",
+    		"uniqueTo": "The Mechanized",
+		"cost": 1,
+		"food": 3,
+		"hurryCostModifier": 25,
+		"uniques": [
+		    	"Consumes [1] [Refined Narcotics]",
+			"[+2] population [in this city]",
+			"Unsellable",
+			"Destroyed when the city is captured",
+			"Will not be displayed in Civilopedia",
+		],
+		"requiredTech": "Redomestication"
+	},
+	{
+		"name": "Better Organs",
+    		"uniqueTo": "The Mechanized",
+		"cost": 130,
+		"food": 6,
+		"hurryCostModifier": 25,
+		"uniques": [
+		    	"Consumes [1] [Harvested Organs]",
+			"[+3] population [in this city]",
+			"Unsellable",
+			"Destroyed when the city is captured",
+		],
+		"requiredTech": "Redomestication"
+	},
+	{
+		"name": "Exotic Brew Soft",
+    		"uniqueTo": "The Mechanized",
+		"cost": 1,
+		"food": 2,
+		"hurryCostModifier": 25,
+		"uniques": [
+		    	"Consumes [1] [Soft Drinks]",
+			"[+2] population [in this city]",
+			"Unsellable",
+			"Destroyed when the city is captured",
+			"Will not be displayed in Civilopedia",
+		],
+		"requiredTech": "Redomestication"
+	},
+	{
+		"name": "Exotic Brew Alc",
+    		"uniqueTo": "The Mechanized",
+		"cost": 1,
+		"food": 1,
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"uniques": [
+		    	"Consumes [1] [Alcohol]",
+			"[+1] population [in this city]",
+			"Unsellable",
+			"Destroyed when the city is captured",
+			"Will not be displayed in Civilopedia",
+		],
+		"requiredTech": "Redomestication"
+	},
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
   	{
 		"name": "Mass Energizer",
