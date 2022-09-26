@@ -119,6 +119,7 @@
 			"Unsellable",
 			"Destroyed when the city is captured",
 			"Will not be displayed in Civilopedia",
+			"Only available <with [Salt]>"
 		],
 		"requiredTech": "Redomestication"
 	},
@@ -134,6 +135,7 @@
 			"Unsellable",
 			"Destroyed when the city is captured",
 			"Will not be displayed in Civilopedia",
+			"Only available <with [Hostile Fauna]>"
 		],
 		"requiredTech": "Redomestication"
 	},
@@ -149,6 +151,7 @@
 			"Unsellable",
 			"Destroyed when the city is captured",
 			"Will not be displayed in Civilopedia",
+			"Only available <with [Honey]>"
 		],
 		"requiredTech": "Redomestication"
 	},
@@ -164,6 +167,7 @@
 			"Unsellable",
 			"Destroyed when the city is captured",
 			"Will not be displayed in Civilopedia",
+			"Only available <with [Medicine]>"
 		],
 		"requiredTech": "Redomestication"
 	},
@@ -179,6 +183,7 @@
 			"Unsellable",
 			"Destroyed when the city is captured",
 			"Will not be displayed in Civilopedia",
+			"Only available <with [Tea Leaves]>"
 		],
 		"requiredTech": "Redomestication"
 	},
@@ -194,6 +199,7 @@
 			"Unsellable",
 			"Destroyed when the city is captured",
 			"Will not be displayed in Civilopedia",
+			"Only available <with [Exotic Seeds]>"
 		],
 		"requiredTech": "Redomestication"
 	},
@@ -209,6 +215,7 @@
 			"Unsellable",
 			"Destroyed when the city is captured",
 			"Will not be displayed in Civilopedia",
+			"Only available <with [Narcotics]>"
 		],
 		"requiredTech": "Redomestication"
 	},
@@ -224,6 +231,7 @@
 			"Unsellable",
 			"Destroyed when the city is captured",
 			"Will not be displayed in Civilopedia",
+			"Only available <with [Refined Narcotics]>"
 		],
 		"requiredTech": "Redomestication"
 	},
@@ -238,6 +246,7 @@
 			"[+3] population [in this city]",
 			"Unsellable",
 			"Destroyed when the city is captured",
+			"Only available <with [Harvested Organs]>"
 		],
 		"requiredTech": "Redomestication"
 	},
@@ -253,6 +262,7 @@
 			"Unsellable",
 			"Destroyed when the city is captured",
 			"Will not be displayed in Civilopedia",
+			"Only available <with [Exotic Brew Soft]>"
 		],
 		"requiredTech": "Redomestication"
 	},
@@ -269,6 +279,7 @@
 			"Unsellable",
 			"Destroyed when the city is captured",
 			"Will not be displayed in Civilopedia",
+			"Only available <with [Alcohol]>"
 		],
 		"requiredTech": "Redomestication"
 	},
