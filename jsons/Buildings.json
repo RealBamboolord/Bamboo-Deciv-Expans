@@ -306,7 +306,7 @@
 			"Unsellable",
 			"Destroyed when the city is captured",
 			"Will not be displayed in Civilopedia",
-			"Only available <with [Exotic Brew Soft]>"
+			"Only available <with [Soft Drinks]>"
 		],
 		"requiredTech": "Redomestication"
 	},
