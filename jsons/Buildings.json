@@ -137,6 +137,21 @@
 		"requiredTech": "Refrigeration"
 	},
 	{
+		"name": "Hydroponic Basement",
+		"replaces": "Hydroponic Farming",
+    		"uniqueTo": "The Mechanized",
+		"food": 4,
+		"specialistSlots": { "Administrator": 1},
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"[+2] population [in this city]",
+			"Consumes [1] [Power]",
+			"[+1 Gold, +1 Happiness] from [Lakes] tiles [in this city]"
+		],
+		"requiredTech": "Hydroponics"
+	},
+	{
 		"name": "Exotic Brew Slt",
     		"uniqueTo": "The Mechanized",
 		"cost": 1,
