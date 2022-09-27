@@ -108,6 +108,34 @@
 		"requiredTech": "Botany"
 	},
 	{
+		"name": "Fish Farm Regulator",
+		"replaces": "Fish Farm",
+    		"uniqueTo": "The Mechanized",
+		"food": 2,
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"requiredNearbyImprovedResources": ["Fish"],
+		"requiredTech": "Ecology",
+		"uniques": [
+			"[+2] population [in this city]",
+			"Must be next to [Coast]",
+			"[+1 Food] from [Coast] tiles [in this city]"
+		]
+	},
+	{
+		"name": "Freezing Room",
+		"replaces": "Cold Store",
+    		"uniqueTo": "The Mechanized",
+		"maintenance": 1,
+		"requiredNearbyImprovedResources": ["Goats","Cattle","Deer","Algae","Jellyfish","Plankton","Hogs"],
+		"uniques": [
+			"[+1 Production] from [Permafrost] tiles [in this city]",
+			"Consumes [1] [Power]"
+		],
+		"hurryCostModifier": 25,
+		"requiredTech": "Refrigeration"
+	},
+	{
 		"name": "Exotic Brew Slt",
     		"uniqueTo": "The Mechanized",
 		"cost": 1,
