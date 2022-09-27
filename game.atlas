@@ -25,9 +25,30 @@ BuildingIcons/Black Smoker
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Control Router
+BuildingIcons/Cleaner Nucleator
   rotate: false
   xy: 1052, 104
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Control Router
+  rotate: false
+  xy: 1160, 104
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Enslave Inferiors
+  rotate: false
+  xy: 1268, 104
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Integrate Enslaved Into Society
+  rotate: false
+  xy: 1484, 104
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -41,14 +62,14 @@ BuildingIcons/Life Creation Lab
   index: -1
 BuildingIcons/Mass Breedery
   rotate: false
-  xy: 1268, 104
+  xy: 1592, 104
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Mass Energizer
   rotate: false
-  xy: 1376, 104
+  xy: 1700, 104
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -69,21 +90,21 @@ BuildingIcons/Solar Power AI
   index: -1
 BuildingIcons/Track Survivors
   rotate: false
-  xy: 1592, 104
+  xy: 1916, 104
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/The Mechanized
   rotate: false
-  xy: 1484, 104
+  xy: 1808, 104
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Gunner Drone
   rotate: false
-  xy: 1160, 104
+  xy: 1376, 104
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
