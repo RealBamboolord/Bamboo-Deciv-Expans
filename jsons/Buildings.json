@@ -130,6 +130,7 @@
 		"requiredNearbyImprovedResources": ["Goats","Cattle","Deer","Algae","Jellyfish","Plankton","Hogs"],
 		"uniques": [
 			"[+1 Production] from [Permafrost] tiles [in this city]",
+			"[+1] population [in this city]",
 			"Consumes [1] [Power]"
 		],
 		"hurryCostModifier": 25,
