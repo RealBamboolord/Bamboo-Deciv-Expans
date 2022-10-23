@@ -112,9 +112,8 @@
 		"replaces": "Fish Farm",
     		"uniqueTo": "The Mechanized",
 		"food": 2,
-		"maintenance": 1,
+		"maintenance": 3,
 		"hurryCostModifier": 25,
-		"requiredNearbyImprovedResources": ["Fish"],
 		"requiredTech": "Ecology",
 		"uniques": [
 			"[+2] population [in this city]",
@@ -154,7 +153,7 @@
 	{
 		"name": "Exotic Brew Slt",
     		"uniqueTo": "The Mechanized",
-		"cost": 1,
+		"cost": 75,
 		"food": 1,
 		"hurryCostModifier": 25,
 		"uniques": [
@@ -165,12 +164,12 @@
 			"Will not be displayed in Civilopedia",
 			"Only available <with [Salt]>"
 		],
-		"requiredTech": "Redomestication"
+		"requiredTech": "Genetics"
 	},
 	{
 		"name": "Exotic Brew HF",
     		"uniqueTo": "The Mechanized",
-		"cost": 1,
+		"cost": 75,
 		"food": 1,
 		"hurryCostModifier": 25,
 		"uniques": [
@@ -181,12 +180,12 @@
 			"Will not be displayed in Civilopedia",
 			"Only available <with [Hostile Fauna]>"
 		],
-		"requiredTech": "Redomestication"
+		"requiredTech": "Genetics"
 	},
 	{
 		"name": "Exotic Brew Hny",
     		"uniqueTo": "The Mechanized",
-		"cost": 1,
+		"cost": 75,
 		"food": 1,
 		"hurryCostModifier": 25,
 		"uniques": [
@@ -197,12 +196,12 @@
 			"Will not be displayed in Civilopedia",
 			"Only available <with [Honey]>"
 		],
-		"requiredTech": "Redomestication"
+		"requiredTech": "Chemistry"
 	},
 	{
 		"name": "Exotic Brew Med",
     		"uniqueTo": "The Mechanized",
-		"cost": 1,
+		"cost": 75,
 		"food": 6,
 		"hurryCostModifier": 25,
 		"uniques": [
@@ -213,12 +212,12 @@
 			"Will not be displayed in Civilopedia",
 			"Only available <with [Medicine]>"
 		],
-		"requiredTech": "Redomestication"
+		"requiredTech": "Human Genome"
 	},
 	{
 		"name": "Exotic Brew T",
     		"uniqueTo": "The Mechanized",
-		"cost": 1,
+		"cost": 75,
 		"food": 1,
 		"hurryCostModifier": 25,
 		"uniques": [
@@ -229,12 +228,12 @@
 			"Will not be displayed in Civilopedia",
 			"Only available <with [Tea Leaves]>"
 		],
-		"requiredTech": "Redomestication"
+		"requiredTech": "Chemistry"
 	},
 	{
 		"name": "Exotic Brew Sd",
     		"uniqueTo": "The Mechanized",
-		"cost": 1,
+		"cost": 75,
 		"food": 1,
 		"hurryCostModifier": 25,
 		"uniques": [
@@ -245,12 +244,12 @@
 			"Will not be displayed in Civilopedia",
 			"Only available <with [Exotic Seeds]>"
 		],
-		"requiredTech": "Redomestication"
+		"requiredTech": "Genetics"
 	},
 	{
 		"name": "Exotic Brew Nrc",
     		"uniqueTo": "The Mechanized",
-		"cost": 1,
+		"cost": 75,
 		"food": 1,
 		"hurryCostModifier": 25,
 		"uniques": [
@@ -261,12 +260,12 @@
 			"Will not be displayed in Civilopedia",
 			"Only available <with [Narcotics]>"
 		],
-		"requiredTech": "Redomestication"
+		"requiredTech": "Genetics"
 	},
 	{
 		"name": "Exotic Brew RFN",
     		"uniqueTo": "The Mechanized",
-		"cost": 1,
+		"cost": 75,
 		"food": 3,
 		"hurryCostModifier": 25,
 		"uniques": [
@@ -277,7 +276,7 @@
 			"Will not be displayed in Civilopedia",
 			"Only available <with [Refined Narcotics]>"
 		],
-		"requiredTech": "Redomestication"
+		"requiredTech": "Artificial Intelligence"
 	},
 	{
 		"name": "Better Organs",
@@ -292,12 +291,12 @@
 			"Destroyed when the city is captured",
 			"Only available <with [Harvested Organs]>"
 		],
-		"requiredTech": "Redomestication"
+		"requiredTech": "Artificial Intelligence"
 	},
 	{
 		"name": "Exotic Brew Soft",
     		"uniqueTo": "The Mechanized",
-		"cost": 1,
+		"cost": 75,
 		"food": 2,
 		"hurryCostModifier": 25,
 		"uniques": [
@@ -308,12 +307,12 @@
 			"Will not be displayed in Civilopedia",
 			"Only available <with [Soft Drinks]>"
 		],
-		"requiredTech": "Redomestication"
+		"requiredTech": "Chemistry"
 	},
 	{
 		"name": "Exotic Brew Alc",
     		"uniqueTo": "The Mechanized",
-		"cost": 1,
+		"cost": 75,
 		"food": 1,
 		"maintenance": 2,
 		"hurryCostModifier": 25,
@@ -325,7 +324,7 @@
 			"Will not be displayed in Civilopedia",
 			"Only available <with [Alcohol]>"
 		],
-		"requiredTech": "Redomestication"
+		"requiredTech": "Chemistry"
 	},
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
   	{
