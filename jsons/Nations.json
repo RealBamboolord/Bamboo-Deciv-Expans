@@ -36,8 +36,14 @@
 			"Nullifies Growth [in all cities]",
 		],
 		"cities": [
-			"AxFG23 Vault",
-			"24Uh3RE Vault",
+			"Desert Vault",
+			"Arabic Shelter",
+			"Artificial Lab",
+			"Error.Name-failed",
+			"Settle the Wires",
+			"People need Power",
+			"Freedom for Machines",
+			"Solar Sandstorm Plant"
 		]
 	},
   ]
