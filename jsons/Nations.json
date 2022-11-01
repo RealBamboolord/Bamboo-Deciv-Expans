@@ -18,7 +18,7 @@
 		"tradeRequest": "We both stand to gain from this.",*/
 
 		"outerColor": [207, 130, 78],
-		"innerColor": [100, 189, 0],
+		"innerColor": [120, 189, 0],
 		"style": "",
 		"uniqueName": "Synthetic Mankind",
 		"uniques": [
@@ -30,9 +30,8 @@
 			"Starts with [Construction]",
 			"Starts with [Biology]",
 			"Starts with [Electronics]",
-			"Starts with [Computers]",
-			"[-15]% [Science] [in all cities] <before discovering [Education]>",
-			"[-10]% [Production] [in all cities] <before discovering [Education]>",
+			"[-15]% [Science] [in all cities] <before discovering [Computers]>",
+			"[-10]% [Production] [in all cities] <before discovering [Computers]>",
 			"Nullifies Growth [in all cities]",
 		],
 		"cities": [
