@@ -49,7 +49,7 @@
 		"name": "Cyberapes",
 		"leaderName": "Uug Brugog",
 		"adjective": ["ape"],
-		"startBias": ["Wasteland"],
+		"startBias": ["Jungle"],
 		"preferredVictoryType": "Cultural",
 		//"favoredReligion": "Humanism",
 
