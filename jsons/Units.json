@@ -59,5 +59,17 @@
 		"attackSound": "nonmetalhit"
 	},
   
+	{
+		"name": "Kids Care Monkey",
+		"unitType": "Civilian",
+		"uniqueTo": "Cyberapes",
+		"replaces": "Mechanized Worker",
+		"movement": 3,
+		"cost": 1,
+		"uniques": [
+			"Unbuildable"
+			"Can construct [Playground]"
+		]
+	},
   
   ]
