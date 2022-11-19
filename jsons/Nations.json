@@ -70,7 +70,7 @@
 		"uniques": [
 	          	"[+1 Culture, +1 Gold] [in all non-occupied cities]","Upon capturing a city, receive [3] times its [Science] production as [Culture] immediately",
 			"Gain [70] Influence with a [Kids Care Monkey] gift to a City-State","Production to [Culture] conversion in cities changed by [+25]%","Production to [Faith] conversion in cities changed by [+25]%",
-			"May buy [New [Military] units start with [15] Experience [in this city]] buildings for [50] [Culture] [in all cities connected to capital]"
+			"May buy [Destroyed when the city is captured] buildings for [50] [Culture] [in all cities connected to capital]"
 		],
 		"cities": [
 			"A",
