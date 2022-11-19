@@ -1,0 +1,21 @@
+[
+	{
+		"name": "Playground",
+		"happiness": 1,
+		"terrainsCanBeBuiltOn": ["Jungle"],
+		"uniqueTo": "Cyberapes",
+		"uniques": [
+		"[+1 Science] for each adjacent [Academy]",
+		"[+1 Culture, +1 Happiness] for each adjacent [Settlement]",
+		"[-1 Happiness, +1 Production] for each adjacent [Outpost]",
+		"[+2 Culture, +1 Happiness, -2 Food] for each adjacent [Narcotics farm]",
+		"[+1 Food, -1 Happiness] for each adjacent [Prison farm]",
+		"[+1 Culture, +1 Faith] for each adjacent [Oracle]",
+		"[+1 Happiness] for each adjacent [Manufactory]",
+		"[+1 Gold] for each adjacent [Citadel]",
+		"[+1 Faith] for each adjacent [Seminary]",
+		"[+2 Faith] for each adjacent [Crystal Refinery]",
+		"Pillaging this improvement yields approximately [+15 Culture]"
+		]
+    },
+  ]
