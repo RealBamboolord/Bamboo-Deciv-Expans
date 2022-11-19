@@ -15,6 +15,9 @@
 		"[+1 Gold] for each adjacent [Citadel]",
 		"[+1 Faith] for each adjacent [Seminary]",
 		"[+2 Faith] for each adjacent [Crystal Refinery]",
+		"Cannot be built on [Bonus resource] tiles",
+		"Cannot be built on [Strategic resource] tiles",
+		"Cannot be built on [Luxury resource] tiles",
 		"Pillaging this improvement yields approximately [+15 Culture]"
 		]
     },
