@@ -508,4 +508,30 @@
 		],
 		"requiredTech": "Civil Service"
 	},
+	{
+		"name": "Kindergarten",
+		"uniqueTo": "Cyberapes",
+		"replaces": "Food Store",
+		"cost": 20,
+		"hurryCostModifier": -25,
+		"uniques": [
+			"Unsellable"
+			"Free [Kids Care Monkey] appears"
+			"[20]% Food is carried over after population increases [in this city]",
+			"[+5]% growth [in this city] <with [Books]>",
+			"[+15]% growth [in this city] <with [Data]>",
+			"[+5]% growth [in this city] <with [Electronics]>",
+			"[+5]% growth [in this city] <with [Gems]>",
+			"[+5]% growth [in this city] <with [Machine Parts]>",
+			"[+5]% growth [in this city] <with [Fabrics]>",
+			"[+5]% growth [in this city] <with [Medicin]>",
+			"[+5]% growth [in this city] <with [Honey]>",
+			"[+1 Food] [in this city] <with [Salt]>",
+			"[-1 Production, +1 Gold, +1 Happiness] [in this city] <with [Alcohol]>",
+			"[-1 Production, +1 Gold, +1 Happiness] [in this city] <with [Narcotics]>",
+			"[-10]% growth [in this city] <with [Alcohol]>",
+			"[-10]% growth [in this city] <with [Narcotics]>",
+			"[-1 Production, -1 Food, +1 Gold] [in this city] <with [Refined Narcotics]>"
+		]
+	},
   ]
