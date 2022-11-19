@@ -43,7 +43,21 @@
                 "promotions": ["Reconnaissance I","Guerilla Warfare I"]
 		"attackSound": "metalhit"
 	},
-  
+  {
+		"name": "Scouter Group",
+		"unitType": "Mounted",
+		"uniqueTo": "Cyberapes",
+		"replaces": "Scout",
+		"movement": 3,
+		"strength": 14,
+		"cost": 35,
+		"upgradesTo": "Hussar",
+		"hurryCostModifier": 20,
+		"obsoleteTech": "Rifling",
+		"uniques": ["Low Tech", "Ignores terrain cost","[-50]% Strength <vs cities> <when attacking>"],
+		"promotions": ["Pursuit", "[Scouter Group] ability"],
+		"attackSound": "nonmetalhit"
+	},
   
   
   ]
