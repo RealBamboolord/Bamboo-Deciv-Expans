@@ -504,6 +504,7 @@
 			"[+75]% Great Person generation [in this city]",
 			"[+25]% growth [in this city] <after adopting [Constitution]>",
 			"Only available <in cities without a [Prison Camp]>",
+			"Only available <in cities with a [Kindergarten]>",
 			"Destroyed when the city is captured"
 		],
 		"requiredTech": "Civil Service"
