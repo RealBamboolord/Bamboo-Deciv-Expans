@@ -25,7 +25,24 @@
 		"hurryCostModifier": 20,
 		"attackSound": "shot"
 	},
-  
+  {
+		"name": "Terrain Controller",
+		"unitType": "Scrapper",
+		"uniqueTo": "Cyberapes",
+		"replaces": "Militia",
+		"movement": 3,
+		"strength": 27,
+		"cost": 60,
+		"requiredTech": "Iron Working",
+		"upgradesTo": "Soldier",
+		"uniques": [
+			"Low Tech",
+			"[+33]% Strength <vs [Siege] units>",
+			"[+33]% Strength <vs [Personnel] units>",
+		],
+                "promotions": ["Reconnaissance I","Guerilla Warfare I"]
+		"attackSound": "metalhit"
+	},
   
   
   
