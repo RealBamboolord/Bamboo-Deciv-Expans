@@ -6,140 +6,154 @@ filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
 BuildingIcons/Artificial Feedery
   rotate: false
-  xy: 1252, 112
+  xy: 1044, 152
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Bio Material Recycling
   rotate: false
-  xy: 4, 12
+  xy: 4, 52
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Black Smoker
   rotate: false
-  xy: 1360, 112
+  xy: 1152, 152
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Cleaner Nucleator
   rotate: false
-  xy: 1468, 112
+  xy: 1260, 152
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Control Router
   rotate: false
-  xy: 1576, 112
+  xy: 1368, 152
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Enslave Inferiors
   rotate: false
-  xy: 1792, 112
+  xy: 1584, 152
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Fish Farm Regulator
   rotate: false
-  xy: 1900, 112
+  xy: 1692, 152
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Freezing Room
   rotate: false
-  xy: 1252, 4
+  xy: 1800, 152
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Integrate Enslaved Into Society
   rotate: false
-  xy: 1468, 4
+  xy: 1044, 44
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Life Creation Lab
   rotate: false
-  xy: 212, 12
+  xy: 212, 52
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Mass Breedery
   rotate: false
-  xy: 1576, 4
+  xy: 1152, 44
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Mass Energizer
   rotate: false
-  xy: 1684, 4
+  xy: 1260, 44
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Mechanized Core
   rotate: false
-  xy: 420, 12
+  xy: 420, 52
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Solar Power AI
   rotate: false
-  xy: 836, 12
+  xy: 628, 52
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Track Survivors
   rotate: false
-  xy: 1900, 4
+  xy: 1584, 44
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
+ImprovementIcons/Playground
+  rotate: false
+  xy: 1692, 94
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
 NationIcons/Cyberapes
   rotate: false
-  xy: 1684, 112
+  xy: 1476, 152
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/The Mechanized
   rotate: false
-  xy: 1792, 4
+  xy: 1476, 44
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
+TileSets/FantasyHex/Tiles/Playground
+  rotate: false
+  xy: 4, 4
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
 UnitIcons/Gunner Drone
   rotate: false
-  xy: 1360, 4
+  xy: 1908, 152
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Scouter Group
   rotate: false
-  xy: 628, 12
-  size: 200, 200
-  orig: 200, 200
+  xy: 1368, 44
+  size: 100, 100
+  orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Terrain Controller
   rotate: false
-  xy: 1044, 12
+  xy: 836, 52
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
