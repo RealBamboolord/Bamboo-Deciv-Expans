@@ -66,9 +66,9 @@
 		"outerColor": [207, 130, 78],
 		"innerColor": [120, 189, 0],
 		"style": "",
-		"uniqueName": "Unique",
+		"uniqueName": "Social Brains",
 		"uniques": [
-	          
+	          "[+1 Culture, +1 Happiness] [in all non-occupied cities]"
 		],
 		"cities": [
 			"A",
