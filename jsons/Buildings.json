@@ -547,7 +547,7 @@
 			"[2] free [Scouter Group] units appear",
 			"Allied City-States provide [Culture] equal to [+15]% of what they produce for themselves",
 			//"Enables conversion of city production to [Happiness]",
-			"Enables conversion of city production to [Faith]",
+			//"Enables conversion of city production to [Faith]",
 			"Enables conversion of city production to [Culture]",
 			"Empire enters golden age",
 			"Can only be built [in capital]",
