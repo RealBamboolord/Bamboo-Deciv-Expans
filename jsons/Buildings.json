@@ -499,9 +499,10 @@
 		"uniques": [
 			"[+1 Production] from every specialist [in this city]",
 			"[+1 Happiness] from [Playground] tiles [in this city]",
+			"Free [Kids Care Monkey] appears"
 			"Remove extra unhappiness from annexed cities",
 			"[+75]% Great Person generation [in this city]",
-			"[+25]% Great Person generation [in this city] <after adopting [Constitution]>",
+			"[+25]% growth [in this city] <after adopting [Constitution]>",
 			"Only available <in cities without a [Prison Camp]>",
 			"Destroyed when the city is captured"
 		],
