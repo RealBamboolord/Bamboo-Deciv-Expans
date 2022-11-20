@@ -376,6 +376,7 @@
 		"hurryCostModifier": 0,
 		"requiredTech": "Biology",
 		"uniques": [
+			"[+15]% Production when constructing [Unsellable] buildings [in all cities]"
 			"[+1] population [in this city]",
 			"[+1 Happiness, +1 Science] [in this city] <with [Harvested Organs]>",
 			"Consumes [1] [Power]"
