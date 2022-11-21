@@ -30,6 +30,7 @@
 			"Starts with [Construction]",
 			"Starts with [Biology]",
 			"Starts with [Electronics]",
+			"[+10]% Production towards any buildings that already exist in the Capital",
 			"[-15]% [Science] [in all cities] <before discovering [Computers]>",
 			"[-10]% [Production] [in all cities] <before discovering [Computers]>",
 			"Nullifies Growth [in all cities]",
