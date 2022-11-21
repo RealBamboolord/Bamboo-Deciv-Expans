@@ -1,159 +1,187 @@
 
 game.png
-size: 2048, 256
+size: 2048, 512
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
+BuildingIcons/Ape Tradition Centre
+  rotate: false
+  xy: 4, 270
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
 BuildingIcons/Artificial Feedery
   rotate: false
-  xy: 1044, 152
+  xy: 628, 370
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Bio Material Recycling
   rotate: false
-  xy: 4, 52
+  xy: 4, 62
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Black Smoker
   rotate: false
-  xy: 1152, 152
+  xy: 628, 262
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
+BuildingIcons/Child Care Office
+  rotate: false
+  xy: 4, 4
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
 BuildingIcons/Cleaner Nucleator
   rotate: false
-  xy: 1260, 152
+  xy: 736, 370
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Control Router
   rotate: false
-  xy: 1368, 152
+  xy: 628, 154
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Enslave Inferiors
   rotate: false
-  xy: 1584, 152
+  xy: 844, 370
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Fish Farm Regulator
   rotate: false
-  xy: 1692, 152
+  xy: 736, 154
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Freezing Room
   rotate: false
-  xy: 1800, 152
+  xy: 844, 262
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Integrate Enslaved Into Society
   rotate: false
-  xy: 1044, 44
+  xy: 844, 154
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
+BuildingIcons/Kindergarten
+  rotate: false
+  xy: 1060, 204
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
 BuildingIcons/Life Creation Lab
   rotate: false
-  xy: 212, 52
+  xy: 212, 270
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Mass Breedery
   rotate: false
-  xy: 1152, 44
+  xy: 952, 262
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Mass Energizer
   rotate: false
-  xy: 1260, 44
+  xy: 1060, 370
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Mechanized Core
   rotate: false
-  xy: 420, 52
+  xy: 212, 62
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Solar Power AI
   rotate: false
-  xy: 628, 52
+  xy: 420, 270
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Track Survivors
   rotate: false
-  xy: 1584, 44
+  xy: 1168, 370
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Playground
   rotate: false
-  xy: 1692, 94
+  xy: 1168, 312
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 NationIcons/Cyberapes
   rotate: false
-  xy: 1476, 152
+  xy: 736, 262
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/The Mechanized
   rotate: false
-  xy: 1476, 44
+  xy: 1060, 262
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Playground
   rotate: false
-  xy: 4, 4
+  xy: 1276, 438
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 UnitIcons/Gunner Drone
   rotate: false
-  xy: 1908, 152
+  xy: 952, 370
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
+UnitIcons/Kids Care Monkey
+  rotate: false
+  xy: 628, 96
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
 UnitIcons/Scouter Group
   rotate: false
-  xy: 1368, 44
+  xy: 952, 154
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Terrain Controller
   rotate: false
-  xy: 836, 52
+  xy: 420, 62
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
