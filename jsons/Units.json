@@ -67,8 +67,10 @@
 		"movement": 3,
 		"cost": 1,
 		"uniques": [
-			"Unbuildable"
-			"Can construct [Playground]"
+			"Unbuildable",
+			"Can construct [Playground]",
+			"Can build [Salvage site] improvements on tiles",
+			"Can build [Mine] improvements on tiles"
 		]
 	},
   
