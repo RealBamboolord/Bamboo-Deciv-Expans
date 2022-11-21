@@ -533,7 +533,8 @@
 			"[-1 Production, +1 Gold, +1 Happiness] [in this city] <with [Narcotics]>",
 			"[-10]% growth [in this city] <with [Alcohol]>",
 			"[-10]% growth [in this city] <with [Narcotics]>",
-			"[-1 Production, -1 Food, +1 Gold] [in this city] <with [Refined Narcotics]>"
+			"[-1 Production, -1 Food, +1 Gold] [in this city] <with [Refined Narcotics]>",
+			"[+2 Culture] <when between [15] and [300] Happiness>"
 		]
 	},
 //<after discovering [Trade]>
@@ -541,7 +542,8 @@
 		"name": "Ape Tradition Centre",
 		"isWonder": true,
 		"uniqueTo": "Cyberapes",
-		"happiness": 2,
+		"happiness": 1,
+	  	"production": 1,
 		"cost": 1,
 		"uniques": [
 			"[2] free [Kids Care Monkey] units appear",
