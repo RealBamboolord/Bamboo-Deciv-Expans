@@ -101,9 +101,7 @@
 		"style": "",
 		"uniqueName": "The Count Continues",
 		"uniques": [
-	          	"[+1 Culture, +1 Gold] [in all non-occupied cities]","Upon capturing a city, receive [3] times its [Science] production as [Culture] immediately",
-			"Gain [70] Influence with a [Kids Care Monkey] gift to a City-State","Production to [Culture] conversion in cities changed by [+25]%","Production to [Faith] conversion in cities changed by [+25]%",
-			"May buy [Destroyed when the city is captured] buildings for [50] [Culture] [in all cities connected to capital]"
+	          	"Starts with [Writing]",
 		],
 		"cities": [
 			"Monkey Hill", "Banana Dreams", "Realm of the Jungle", "Ooga Way", "Monkey Island", "Ape's Pride"
