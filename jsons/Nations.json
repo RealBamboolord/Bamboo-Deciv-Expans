@@ -69,6 +69,7 @@
 		"style": "",
 		"uniqueName": "Social Brains",
 		"uniques": [
+                        "Starts with [Mining]","Starts with [Iron Working]",
 	          	"[+1 Culture, +1 Gold] [in all non-occupied cities]","Upon capturing a city, receive [3] times its [Science] production as [Culture] immediately",
 			"Gain [70] Influence with a [Kids Care Monkey] gift to a City-State","Production to [Culture] conversion in cities changed by [+25]%","Production to [Faith] conversion in cities changed by [+25]%",
 			"May buy [Destroyed when the city is captured] buildings for [50] [Culture] [in all cities connected to capital]"
@@ -84,6 +85,9 @@
 		"cityStateType": "Labor",
 		"style": "",
 		"uniques": [
+                        "Cannot build [Personnel] units",
+                        "Starts with [Machinery]",
+                        "Starts with [Steel]",
 			"Double quantity of [Deer] produced",
                         "Double quantity of [Hogs] produced",
                         "Double quantity of [Furs] produced",
