@@ -89,7 +89,9 @@
                         "Double quantity of [Furs] produced",
                         "Double quantity of [Fungus] produced",
                         "Double quantity of [Hostile Fauna] produced",
-                        "[+1 Food,+2 Production] from every [Camp]"
+                        "[+2 Food, +4 Production] from every [Camp] <before the [Neofeudal era]>",
+                        "[+1 Food, +3 Production] from every [Camp] <starting from the [Neofeudal era]> <before the [Industrial era]>",
+                        "[+2 Production] from every [Camp] <starting from the [Industrial era]>"
 		],
 		"declaringWar": "How cares about renewability? We will exploit your people!",
 		"attacked": "You ain't stopping the exploit",
