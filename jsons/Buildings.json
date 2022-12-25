@@ -569,9 +569,10 @@
 		"uniqueTo": "Exploiters Tribe",
 		"replaces": "Monument",
 		"cost": 1,
-		"culture": 4,
-		"gold": 2,
+		"culture": 6,
+		"gold": 1,
 		"uniques": [
+                        "Provided [5] Oil",
 			"Will not be displayed in Civilopedia",
 			"Reveals the entire map"
 		]
@@ -583,6 +584,7 @@
 		"production": 2,
 		"uniques": [
 			"Provides [1] [Ivory]",
+                        "Creates a [Trading post] improvement on a specific tile",
 			"Never destroyed when the city is captured"
 		]
 	}
