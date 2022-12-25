@@ -78,4 +78,24 @@
 			
 		]
 	},
+{
+		"name": "Exploiters Tribe",
+		"adjective": ["Exploiter"],
+		"cityStateType": "Labor",
+		"style": "",
+		"uniques": [
+			"Double quantity of [Deer] produced",
+                        "Double quantity of [Hogs] produced",
+                        "Double quantity of [Furs] produced",
+                        "Double quantity of [Fungus] produced",
+                        "Double quantity of [Hostile Fauna] produced",
+                        "[+1 Food,+2 Production] from every [Camp]"
+		],
+		"declaringWar": "How cares about renewability? We will exploit your people!",
+		"attacked": "You ain't stopping the exploit",
+		"defeated": "F*ck it, we had our fun. Now it's your turn depleting the leftovers",
+		"outerColor": [0, 0, 0],
+		"innerColor": [218,192,62],
+		"cities": ["Plundercamp"]
+	},
   ]
