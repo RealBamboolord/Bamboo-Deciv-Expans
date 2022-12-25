@@ -21,4 +21,21 @@
 		"Pillaging this improvement yields approximately [+15 Culture]"
 		]
     },
+       {
+		"name": "Trading post",
+		"production": 2,
+                "gold": 2,
+                "food": 2,
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": [
+			"Great Improvement",
+			"Provides [1] [Ivory]",
+			"[-1 Production, +1 Gold] from [Fresh water] tiles",
+			"[-1 Food] <after discovering [Land Remediation]>",
+			"Constructing it will take over the tiles around it and assign them to your closest city",
+			"Cannot be built on [Luxury resource] tiles",
+                        "Pillaging this improvement yields approximately [+20 Gold]",
+		]
+	},
+
   ]
