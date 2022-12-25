@@ -73,5 +73,15 @@
 			"Can build [Mine] improvements on tiles"
 		]
 	},
+{
+		"name": "Brute",
+                "uniqueTo": "Exploiters Tribe",
+                "replaces": "Worker",
+		"unitType": "Civilian",
+		"movement": 2,
+		"hurryCostModifier": 20,
+		"uniques": ["Can build [Land] improvements on tiles","[+1] Sight","[-100]% maintenance costs"],
+		"cost": 50
+	},
   
   ]
