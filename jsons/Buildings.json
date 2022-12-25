@@ -563,4 +563,27 @@
 			},
 		]
 	},
+///////////////CityStates///////////
+{
+		"name": "Depletion Park",
+		"uniqueTo": "Exploiters Tribe",
+		"replaces": "Monument",
+		"cost": 1,
+		"culture": 4,
+		"gold": 2,
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Reveals the entire map"
+		]
+	},
+{
+		"name": "Goodies Consumption",
+		"uniqueTo": "Exploiters Tribe",
+		"cost": 1,
+		"production": 2,
+		"uniques": [
+			"Provides [1] [Ivory]",
+			"Never destroyed when the city is captured"
+		]
+	}
   ]
