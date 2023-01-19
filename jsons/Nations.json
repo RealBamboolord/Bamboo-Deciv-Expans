@@ -17,10 +17,10 @@
 		"hateHello": "*Im not gonna answer inferior beings like you*",
 		"tradeRequest": "The Artificial Intelligence has come up with this offer. It will surely be well thought",
 
-		"outerColor": [144, 91, 54],
-		"innerColor": [160, 208, 76],
-		//"outerColor": [207, 130, 78],
-		//"innerColor": [120, 189, 0],
+		//"outerColor": [144, 91, 54],
+		//"innerColor": [160, 208, 76],
+		"outerColor": [207, 130, 78],
+		"innerColor": [120, 189, 0],
 		"style": "",
 		"uniqueName": "Synthetic Mankind",
 		"uniques": [
