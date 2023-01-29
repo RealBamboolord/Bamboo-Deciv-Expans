@@ -5,6 +5,7 @@
 		"terrainsCanBeBuiltOn": ["Jungle"],
 		"uniqueTo": "Cyberapes",
 		"uniques": [
+		"Great Improvement",
 		"[+1 Science] for each adjacent [Academy]",
 		"[+1 Culture, +1 Happiness] for each adjacent [Settlement]",
 		"[-1 Happiness, +1 Production] for each adjacent [Outpost]",
