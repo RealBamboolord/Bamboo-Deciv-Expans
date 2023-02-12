@@ -5,7 +5,7 @@
 		"adjective": ["Bot"],
 		"startBias": ["Desert"],
 		"preferredVictoryType": "Scientific",
-		//"favoredReligion": "Humanism",
+		"favoredReligion": "High Mind",
 
 		/*"startIntroPart1": "'When the Cataclysm happened, there were many that felt lost. Like the world was too far gone. I always had hope, but sometimes it's hard to keep it. Ever since we came out, the world has felt like a jungle. Ruled by wild beasts.'",
 		"startIntroPart2": "'But I got lucky. I found my platoon. My family. I think people seem to forget it, but fundamental rights? Democracy? Those were the result of natural progress. Of us seeing what worked, and what didnt. And as long as we keep marching backwards like this, we will never be better. The world had given me a second chance. And so I give you one as well. We go around the world gathering people like us. That see the world not for what it. But for what it can be. A New Star.'",*/
@@ -56,7 +56,7 @@
 		"adjective": ["ape"],
 		"startBias": ["Jungle"],
 		"preferredVictoryType": "Cultural",
-		//"favoredReligion": "Humanism",
+		"favoredReligion": "A Better Place",
 
 		/*"startIntroPart1": "'When the Cataclysm happened, there were many that felt lost. Like the world was too far gone. I always had hope, but sometimes it's hard to keep it. Ever since we came out, the world has felt like a jungle. Ruled by wild beasts.'",
 		"startIntroPart2": "'But I got lucky. I found my platoon. My family. I think people seem to forget it, but fundamental rights? Democracy? Those were the result of natural progress. Of us seeing what worked, and what didnt. And as long as we keep marching backwards like this, we will never be better. The world had given me a second chance. And so I give you one as well. We go around the world gathering people like us. That see the world not for what it. But for what it can be. A New Star.'",*/
