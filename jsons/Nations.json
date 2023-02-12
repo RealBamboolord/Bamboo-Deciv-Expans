@@ -45,7 +45,9 @@
 			"People need Power",
 			"Freedom for Machines",
 			"Error.Name-failed",
-			"Solar Sandstorm Plant"
+			"Solar Sandstorm Plant",
+			"Labtown",
+			"Creationist Crate"
 		]
 	},
 {
@@ -57,14 +59,14 @@
 		//"favoredReligion": "Humanism",
 
 		/*"startIntroPart1": "'When the Cataclysm happened, there were many that felt lost. Like the world was too far gone. I always had hope, but sometimes it's hard to keep it. Ever since we came out, the world has felt like a jungle. Ruled by wild beasts.'",
-		"startIntroPart2": "'But I got lucky. I found my platoon. My family. I think people seem to forget it, but fundamental rights? Democracy? Those were the result of natural progress. Of us seeing what worked, and what didnt. And as long as we keep marching backwards like this, we will never be better. The world had given me a second chance. And so I give you one as well. We go around the world gathering people like us. That see the world not for what it. But for what it can be. A New Star.'",
-		"declaringWar": "*weep* Intruders to our desired place *weep* Die inferior! *weep*",
-		"attacked": {"The machines will crunch you","Your body will end in a feeding lab"}
-		"defeated": "The life of us began in a lab and sadly it will end there. My people will decay not knowing I will remain. Fractured and Powerless. This is not the future I desired for my new life. I guess humanity was never inferior.",
-		"introduction": "Hello Humanborn. Do you posess the interest of shaking hands with a living machina?",
-		"neutralHello": "*Meeeep* Hello my friend. Stay wired",
-		"hateHello": "*Im not gonna answer inferior beings like you*",
-		"tradeRequest": "The Artificial Intelligence has come up with this offer. It will surely be well thought",*/
+		"startIntroPart2": "'But I got lucky. I found my platoon. My family. I think people seem to forget it, but fundamental rights? Democracy? Those were the result of natural progress. Of us seeing what worked, and what didnt. And as long as we keep marching backwards like this, we will never be better. The world had given me a second chance. And so I give you one as well. We go around the world gathering people like us. That see the world not for what it. But for what it can be. A New Star.'",*/
+		"declaringWar": "Oogaa! Attack!",
+		"attacked": "We will protect our homeland"
+		"defeated": "Guess you were not supposed to have fun in a wasteland. The world is an even worse place now",
+		"introduction": "Welcome to the new jungle, new face. Let this wasteland not be a new struggle, but rather a second chance. We love this world and you should do the same",
+		"neutralHello": "Want a Banana?",
+		"hateHello": "Just wanna let you know we don't like your folks",
+		"tradeRequest": "The society of Apes brings forth this generous offer",
 
 		"outerColor": [106, 168, 0],
 		"innerColor": [100, 63, 0],
@@ -77,7 +79,7 @@
 			"May buy [Destroyed when the city is captured] buildings for [50] [Culture] [in all cities connected to capital]"
 		],
 		"cities": [
-			"Monkey Hill", "Banana Dreams", "Realm of the Jungle", "Ooga Way", "Monkey Island", "Ape's Pride"
+			"Monkey Hill", "Banana Dreams", "Realm of the Jungle", "Ooga Way", "Monkey Island", "Ape's Pride", "Rainforrt", "Wasteland's Funpark", "Optimism", "Gorilla Range"
 			
 		]
 	},
