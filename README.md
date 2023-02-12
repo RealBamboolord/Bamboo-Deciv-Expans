@@ -3,6 +3,9 @@ A WIP mod of Bamboolord to add new civs to Lodo the Bear's Deciv Redux mod.
 Base ruleset here:
 https://github.com/SpacedOutChicken/DeCiv-Redux
 
+Beta version here:
+https://github.com/NotBamboolord/TCC-beta
+
 
 The Lore I imagine is that the faction was "founded" by a group of scientists that survived the fallout in the arabian Desert with the help of a powerful AI they created.
 They built robots, machines and a powerful reactor in cooperation with the AI.
