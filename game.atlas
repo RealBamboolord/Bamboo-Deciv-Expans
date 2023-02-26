@@ -6,28 +6,28 @@ filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
 BuildingIcons/Ape Tradition Centre
   rotate: false
-  xy: 4, 270
+  xy: 4, 62
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Artificial Feedery
   rotate: false
-  xy: 628, 370
+  xy: 1376, 262
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Bio Material Recycling
   rotate: false
-  xy: 4, 62
+  xy: 212, 270
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Black Smoker
   rotate: false
-  xy: 628, 262
+  xy: 1376, 154
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -41,147 +41,301 @@ BuildingIcons/Child Care Office
   index: -1
 BuildingIcons/Cleaner Nucleator
   rotate: false
-  xy: 736, 370
+  xy: 1484, 262
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Control Router
   rotate: false
-  xy: 628, 154
+  xy: 1484, 154
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Enslave Inferiors
   rotate: false
-  xy: 844, 370
+  xy: 1592, 154
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Fish Farm Regulator
   rotate: false
-  xy: 736, 154
+  xy: 1700, 262
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Freezing Room
   rotate: false
-  xy: 844, 262
+  xy: 1700, 154
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Integrate Enslaved Into Society
   rotate: false
-  xy: 844, 154
+  xy: 1808, 154
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Kindergarten
   rotate: false
-  xy: 1060, 204
+  xy: 1592, 96
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 BuildingIcons/Life Creation Lab
   rotate: false
-  xy: 212, 270
+  xy: 420, 62
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Mass Breedery
   rotate: false
-  xy: 952, 262
+  xy: 1052, 46
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Mass Energizer
   rotate: false
-  xy: 1060, 370
+  xy: 1160, 46
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Mechanized Core
   rotate: false
-  xy: 212, 62
+  xy: 628, 270
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Solar Power AI
   rotate: false
-  xy: 420, 270
+  xy: 628, 62
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Track Survivors
   rotate: false
-  xy: 1168, 370
+  xy: 1484, 46
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Playground
   rotate: false
-  xy: 1168, 312
+  xy: 62, 4
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
+MayaCalendar/1
+  rotate: false
+  xy: 836, 162
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+MayaCalendar/10
+  rotate: false
+  xy: 1908, 370
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+MayaCalendar/11
+  rotate: false
+  xy: 836, 54
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+MayaCalendar/12
+  rotate: false
+  xy: 944, 162
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+MayaCalendar/13
+  rotate: false
+  xy: 944, 54
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+MayaCalendar/14
+  rotate: false
+  xy: 1052, 262
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+MayaCalendar/15
+  rotate: false
+  xy: 1052, 154
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+MayaCalendar/16
+  rotate: false
+  xy: 1160, 262
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+MayaCalendar/17
+  rotate: false
+  xy: 1160, 154
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+MayaCalendar/18
+  rotate: false
+  xy: 1268, 262
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+MayaCalendar/19
+  rotate: false
+  xy: 1268, 154
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+MayaCalendar/2
+  rotate: false
+  xy: 1044, 370
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+MayaCalendar/3
+  rotate: false
+  xy: 1152, 370
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+MayaCalendar/4
+  rotate: false
+  xy: 1260, 370
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+MayaCalendar/5
+  rotate: false
+  xy: 1368, 370
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+MayaCalendar/6
+  rotate: false
+  xy: 1476, 370
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+MayaCalendar/7
+  rotate: false
+  xy: 1584, 370
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+MayaCalendar/8
+  rotate: false
+  xy: 1692, 370
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+MayaCalendar/9
+  rotate: false
+  xy: 1800, 370
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 NationIcons/Cyberapes
   rotate: false
-  xy: 736, 262
+  xy: 1592, 262
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/The Mechanized
   rotate: false
-  xy: 1060, 262
+  xy: 1376, 46
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
+ReligionIcons/A Better Place
+  rotate: false
+  xy: 4, 270
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+ReligionIcons/Conservation
+  rotate: false
+  xy: 212, 62
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+ReligionIcons/High Mind
+  rotate: false
+  xy: 420, 270
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
 TileSets/FantasyHex/Tiles/Playground
   rotate: false
-  xy: 1276, 438
+  xy: 1916, 272
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 UnitIcons/Gunner Drone
   rotate: false
-  xy: 952, 370
+  xy: 1808, 262
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Kids Care Monkey
   rotate: false
-  xy: 628, 96
+  xy: 1916, 312
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitIcons/Scouter Group
   rotate: false
-  xy: 952, 154
+  xy: 1268, 46
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Terrain Controller
   rotate: false
-  xy: 420, 62
+  xy: 836, 270
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
