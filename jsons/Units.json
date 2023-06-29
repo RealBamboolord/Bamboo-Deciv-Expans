@@ -1,5 +1,5 @@
 [
-  {
+	{
 		"name": "Gunner Drone",
     		"replaces": "Blimp",
     		"uniqueTo": "The Mechanized",
@@ -21,11 +21,11 @@
 			"Never appears as a Barbarian unit"
 			"Consumes [1] [Power]",
 		],
-		"promotions": ["Automated"]
+		"promotions": ["Automated"],
 		"hurryCostModifier": 20,
 		"attackSound": "shot"
 	},
-  {
+	{
 		"name": "Terrain Controller",
 		"unitType": "Scrapper",
 		"uniqueTo": "Cyberapes",
@@ -40,10 +40,10 @@
 			"[+33]% Strength <vs [Siege] units>",
 			"[+33]% Strength <vs [Personnel] units>",
 		],
-                "promotions": ["Reconnaissance I","Guerilla Warfare I"]
+                "promotions": ["Reconnaissance I", "Guerilla Warfare I"],
 		"attackSound": "metalhit"
 	},
-  {
+  	{
 		"name": "Scouter Group",
 		"unitType": "Mounted",
 		"uniqueTo": "Cyberapes",
@@ -54,11 +54,10 @@
 		"upgradesTo": "Hussar",
 		"hurryCostModifier": 20,
 		"obsoleteTech": "Rifling",
-		"uniques": ["Low Tech", "Ignores terrain cost","[-50]% Strength <vs cities> <when attacking>"],
+		"uniques": ["Low Tech", "Ignores terrain cost", "[-50]% Strength <vs cities> <when attacking>"],
 		"promotions": ["Pursuit", "[Scouter Group] ability"],
 		"attackSound": "nonmetalhit"
 	},
-  
 	{
 		"name": "Kids Care Monkey",
 		"unitType": "Civilian",
@@ -68,12 +67,12 @@
 		"cost": 1,
 		"uniques": [
 			"Unbuildable",
-			"Can construct [Playground]",
+			"Can instantly construct a [Playground] improvement <by consuming this unit>",
 			"Can build [Salvage site] improvements on tiles",
 			"Can build [Mine] improvements on tiles"
 		]
 	},
-{
+	{
 		"name": "Brute",
                 "uniqueTo": "Exploiters Tribe",
                 "replaces": "Worker",
@@ -83,5 +82,4 @@
 		"uniques": ["Can build [Land] improvements on tiles","[+1] Sight","[-100]% maintenance costs"],
 		"cost": 50
 	},
-  
-  ]
+]
