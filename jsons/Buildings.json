@@ -1,45 +1,5 @@
 [
 //CYBERAPES//CYBERAPES//CYBERAPES//CYBERAPES//CYBERAPES//CYBERAPES//CYBERAPES//CYBERAPES//CYBERAPES//CYBERAPES//CYBERAPES//CYBERAPES//CYBERAPES//CYBERAPES
-	{
-		"name": "Child Care Office",
-		"uniqueTo": "Cyberapes",
-		"replaces": "Listening Post",
-		"maintenance": 2,
-		"hurryCostModifier": 25,
-		"uniques": [
-			"[+1 Production] from every specialist [in this city]",
-			"[+1 Happiness] from [Playground] tiles [in this city]",
-			"Free [Kids Care Monkey] appears",
-			"Remove extra unhappiness from annexed cities",
-			"[+75]% Great Person generation [in this city]",
-			"[+25]% growth [in this city] <after adopting [Constitution]>",
-			"Only available <in cities without a [Prison Camp]>",
-			"Only available <in cities with a [Kindergarten]>",
-			"Destroyed when the city is captured"
-		],
-		"requiredTech": "Civil Service"
-	},
-	{
-		"name": "Kindergarten",
-		"uniqueTo": "Cyberapes",
-		"replaces": "Food Store",
-		"cost": 20,
-		"hurryCostModifier": -25,
-		"uniques": [
-			"Unsellable",
-			"Free [Kids Care Monkey] appears",
-			"[20]% Food is carried over after population increases [in this city]",
-			"[+15]% growth [in this city] <with [Books]>",
-			"[+1 Food] [in this city] <with [Salt]>",
-			"[-1 Production, +1 Gold, +1 Happiness] [in this city] <with [Alcohol]>",
-			"[-1 Production, +1 Gold, +1 Happiness] [in this city] <with [Narcotics]>",
-			"[-10]% growth [in this city] <with [Alcohol]>",
-			"[-10]% growth [in this city] <with [Narcotics]>",
-			"[-1 Production, -1 Food, +1 Gold] [in this city] <with [Refined Narcotics]>",
-			"[+1 Culture] <when between [15] and [300] Happiness>",
-			"[+1 Culture] <when between [25] and [300] Happiness>",
-		]
-	},
   	{
 		"name": "Ape Tradition Centre",
 		"isWonder": true,
@@ -64,6 +24,281 @@
 			},
 		]
 	},
+	{
+		"name": "Gen Restoration Project",
+		"replaces": "Council",
+		"uniqueTo": "Cyberapes",
+		"cost": 200,
+		"science": 3,
+		"requiredTech": "Civil Service",
+		"uniques": [
+			"Can breed and raise stronger Apes",
+			"New [Gorilla] units start with [15] Experience [in all cities]",
+			"Can only be built <in [in capital] cities>",
+			"Only available <in cities without a [Rainforest Restoration Project]>",
+			"Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "Rainforest Restoration Project",
+		"replaces": "Congress",
+		"uniqueTo": "Cyberapes",
+		"cost": 200,
+		"science": -2,
+		"requiredTech": "Civil Service",
+		"uniques": [
+			"Unlocks Jungle Replanting Zones",
+			"[+1 Gold, +1 Culture] [in all cities connected to capital] <with [1] to [1] neighboring [Jungle Replanting Zone] tiles>",
+			"[+1 Gold, +2 Culture, +1 Food] [in all cities connected to capital] <with [2] to [2] neighboring [Jungle Replanting Zone] tiles>",
+			"[+1 Gold, +3 Culture, +1 Food] [in all cities connected to capital] <with [3] to [3] neighboring [Jungle Replanting Zone] tiles>",
+			"[+2 Gold, +4 Culture, +2 Food] [in all cities connected to capital] <with [4] to [4] neighboring [Jungle Replanting Zone] tiles>",
+			"[+2 Gold, +5 Culture, +2 Food] [in all cities connected to capital] <with [5] to [5] neighboring [Jungle Replanting Zone] tiles>",
+			"[+2 Gold, +6 Culture, +2 Food] [in all cities connected to capital] <with [6] to [6] neighboring [Jungle Replanting Zone] tiles>",
+			"[+2 Faith] from [Jungle Replanting Zone] tiles [in holy cities]",
+			"[NFT Monkey] is earned [+100]% faster",
+			"[+1 Food] from every [Merchant]",
+			"Can only be built <in [in capital] cities>",
+			"Only available <in cities without a [Gen Restoration Project]>",
+			"Destroyed when the city is captured",
+		]
+		"replacementTextForUniques": "Unlocks Jungle Replanting Zones\n+1 [Gold] in cities neighboring 1 Jungle Replanting Zone (doubled with at least 4)\n+1 [Culture] in cities for every neighboring Jungle Replanting Zone\n+1 [Food] in cities neighboring 2 Jungle Replanting Zones (doubled with at least 4)\n+2 [Faith] from Jungle Replanting Zones in holy cities\nNFT Monkey is earned 100% faster\n+1 [Food] from every Merchant\nCan only be built in capital\nOnly available in cities without a Gen Restoration Project\nDestroyed when the city is captured",
+	},
+	{
+		"name": "Kindergarten",
+		"uniqueTo": "Cyberapes",
+		"replaces": "Food Store",
+		"cost": 20,
+		"hurryCostModifier": -25,
+		"uniques": [
+			"Unsellable",
+			"Free [Kids Care Monkey] appears",
+			"[20]% Food is carried over after population increases [in this city]",
+			"[+15]% growth [in this city] <with [Books]>",
+			"[+1 Food] [in this city] <with [Salt]>",
+			"[-1 Production, +1 Gold, +1 Happiness] [in this city] <with [Alcohol]>",
+			"[-1 Production, +1 Gold, +1 Happiness] [in this city] <with [Narcotics]>",
+			"[-10]% growth [in this city] <with [Alcohol]>",
+			"[-10]% growth [in this city] <with [Narcotics]>",
+			"[-1 Production, -1 Food, +1 Gold] [in this city] <with [Refined Narcotics]>",
+			"[+1 Culture] <when between [15] and [300] Happiness>",
+			"[+1 Culture] <when between [25] and [300] Happiness>",
+		]
+	},
+	{
+		"name": "Child Care Office",
+		"uniqueTo": "Cyberapes",
+		"replaces": "Listening Post",
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"[+1 Production] from every specialist [in this city]",
+			"[+1 Happiness] from [Playground] tiles [in this city]",
+			"Free [Kids Care Monkey] appears",
+			"Remove extra unhappiness from annexed cities",
+			"[+75]% Great Person generation [in this city]",
+			"[+25]% growth [in this city] <after adopting [Constitution]>",
+			"Only available <in cities without a [Prison Camp]>",
+			"Only available <in cities with a [Kindergarten]>",
+			"Destroyed when the city is captured"
+		],
+		"requiredTech": "Civil Service"
+	},
+///TCC
+  {
+		"name": "Sectleading Chamber",
+		"isWonder": true,
+		"uniqueTo": "TCC",
+		"culture": 1,
+		"cost": 1,
+		"specialistSlots": {"Politician": 1},
+		"uniques": [
+			"[2] free [Secret Bowman] units appear",
+			"Can only be built <in [in capital] cities>",
+			"[+20 Gold, +20 Culture] whenever a Great Person is expended",
+			"[+3 Culture, +2 Science, +1 Gold] for every known Natural Wonder"
+		],
+		"quote": "quote",
+		"civilopediaText": [
+			{
+				"text": "A man may count every day he walks the planet, but an archive may count every man that counts the days. Having an archive full of all available knowledge at hand surely makes it easy to rule an organisation. Knowledge sure is Power.",
+			},
+		]
+	},
+	{
+		"name": "Search for Remains",
+                "uniqueTo": "TCC",
+                "replaces": "Search for Survivors",
+		"cost": 30,
+		"isNationalWonder": true,
+		"uniques": [
+			"[1] free random researchable Tech(s) from the [Decivilized era]",
+			"Provides [1] [Fungus]",
+			"Reveal up to [2] [Artifacts] within a [8] tile radius",
+			"Reveal up to [1] [Electronics] within a [6] tile radius",
+			"Reveal up to [1] [Machine Parts] within a [6] tile radius",
+			"Reveal up to [3] [Metal] within a [8] tile radius",
+			"Reveal up to [3] [Scrap] within a [8] tile radius",
+		]
+	},
+        {
+		"name": "Scriptum",
+                "uniqueTo": "TCC",
+                "replaces": "Library",
+		"specialistSlots": {"Archivar": 1},
+		"hurryCostModifier": 25,
+		"uniques": [
+                        "1 Archivar slot",
+			"[+2 Science] [in this city] <with [Data]>",
+			"[+1 Science] per [2] population [in this city]",
+			"[+1 Science, +1 Culture] from [Books] tiles [in this city]",
+			"Enables construction of [Power] buildings"
+		],
+		"requiredTech": "Writing"
+	},
+        {
+		"name": "Secret Society",
+                "uniqueTo": "TCC",
+                "replaces": "Town Hall",
+		"specialistSlots": {"Politician": 2},
+                "science": 1,
+		"maintenance": 1,
+		"uniques": [
+                        "2 Politician Slots",
+			"[-25]% Culture cost of natural border growth [in this city]",
+			"[+1 Culture, +1 Happiness] [in this city] <with [Power]>"
+		],
+		"hurryCostModifier": 25,
+		"requiredTech": "Civil Service"
+	},
+        {
+		"name": "Public Examinum",
+                "uniqueTo": "TCC",
+                "replaces": "Museum",
+		"science": 1,
+		"specialistSlots": {"Archivar": 1},
+		"cost": 40,
+		"uniques": ["[+1 Culture, +1 Science, +1 Faith] from [Artifacts] tiles [in this city]",	"1 Archivar Slot"]
+		"hurryCostModifier": 25,
+		"requiredTech": "Secrets of the Past"
+	},
+        {
+		"name": "Private Radio Station",
+                "uniqueTo": "TCC",
+                "replaces": "Broadcast Tower",
+		"culture": 1,
+		"specialistSlots": {"Entrepreneur": 1},
+		"percentStatBonus": {"culture": 25, "gold": 10},
+		"uniques": ["1 Entrepreneur slot"],
+		"maintenance": 2,
+		"requiredTech": "Radio"
+	},
+        {
+		"name": "Local Business",
+                "uniqueTo": "TCC",
+                "replaces": "Market",
+		"specialistSlots": {"Entrepreneur": 1},
+		"hurryCostModifier": 25,
+		"requiredTech": "Trade",
+		"uniques": [
+                        "1 Entrepreneur slot instead of Merchant slots",
+			"[+1 Gold] from [Luxury resource] tiles [in this city]"
+		]
+	},
+{
+		"name": "Literature School",
+                "uniqueTo": "TCC",
+                "replaces": "Public School",
+		"maintenance": 1,
+                "faith": 1,
+		"hurryCostModifier": 0,
+		"uniques": [
+			"[+1 Science, +1 Culture, +1 Faith] per [3] population [in this city]",
+                        "[+1 Happiness] per [5] population [in this city]",
+			"Only available <in cities with a [Library]>",
+			"[+1 Culture] [in this city] <with [Power]>",
+                        "Consumes [1] [Books]"
+		],
+		"requiredTech": "Civil Service"
+	},
+{
+		"name": "History Sustaining Center",
+                "uniqueTo": "TCC",
+                "replaces": "Data Center",
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"percentStatBonus": {"science": 50},
+		"specialistSlots": {"Archivar": 2},
+		"requiredTech": "Networking",
+		"uniques": [
+                        "2 Archivar slots",
+			"[+3 Science, +3 Culture] from [Data] tiles [in this city]",
+			"[+2 Science, +2 Culture] from [Encrypted Data] tiles [in this city]",
+                        "[+2 Culture, +2 Faith] [in this city] <with [Data]>",
+			"Consumes [1] [Data]"
+		]
+	},
+        {
+		"name": "Knowledge Processor",
+                "uniqueTo": "TCC",
+                "replaces": "Decryption Center",
+		"culture": 3,
+		"greatPersonPoints": {"Great Scientist": 2},
+		"specialistSlots": {"Archivar": 1},
+		"uniques": [
+                        "1 Archivar Slot",
+			"Consumes [1] [Encrypted Data]",
+			"[+2 Science] [in this city] <with [Power]>",
+			"Only available <in cities with a [Data Center]>",
+                        "Provides [1] [Data]",
+		],
+		"percentStatBonus": {"science": 25},
+		"requiredTech": "Decryption"
+	},
+        {
+		"name": "Productivity Complex",
+                "uniqueTo": "TCC",
+                "replaces": "Factory",
+                "gold": 2,
+		"percentStatBonus": {"production": 20},
+		"specialistSlots": {"Entrepreneur": 2},
+		"maintenance": 0,
+		"hurryCostModifier": 0,
+		"uniques": [
+                        "2 Entrepreneur Slots",
+			"Only available <in cities with a [Library]>",
+			"Enables construction of [advanced] units",
+			"[+3 Production] [in this city] <with [Power]>",
+			"[+1 Production] [in this city] <with [Machine Parts]>",
+			"[+1 Production] from [Machine Parts] tiles [in this city]",
+			"Consumes [1] [Power]"
+		],
+		"requiredTech": "Manufacturing"
+	},
+	{
+		"name": "Underground Dome",
+                "uniqueTo": "TCC",
+                "replaces": "Arcology Dome",
+		"food": 1,
+		"culture": 1,
+		"happiness": 1,
+		"gold": 1,
+		"percentStatBonus": {"culture": 33, "production": 10},
+		"specialistSlots": {"Politician": 1, "Entrepreneur": 1, "Farmer": 1, "Merchant": 1, "Scientist": 1},
+		"cityStrength": 7,
+		"cityHealth": 100,
+		"requiredTech": "Future Materials",
+		"uniques": [
+			"[20]% Great Person generation [in this city]",
+			"[-10]% Unhappiness from [Population] [in this city]",
+			"Only available <if [Arcology Project] is constructed>",
+			"Requires at least [2] population",
+			"Destroyed when the city is captured",
+			"Consumes [1] [Power]",
+			"Consumes [1] [Aluminum]",
+			"Consumes [1] [Coal]"
+		]
+	},
+	
 ///////////////CityStates///////////
 {
 		"name": "Depletion Park",
