@@ -1,17 +1,112 @@
 [
-  {
+//CYBERAPES//CYBERAPES//CYBERAPES//CYBERAPES//CYBERAPES//CYBERAPES//CYBERAPES//CYBERAPES//CYBERAPES//CYBERAPES//CYBERAPES//CYBERAPES//CYBERAPES//CYBERAPES
+	{
+		"name": "Child Care Office",
+		"uniqueTo": "Cyberapes",
+		"replaces": "Listening Post",
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"[+1 Production] from every specialist [in this city]",
+			"[+1 Happiness] from [Playground] tiles [in this city]",
+			"Free [Kids Care Monkey] appears",
+			"Remove extra unhappiness from annexed cities",
+			"[+75]% Great Person generation [in this city]",
+			"[+25]% growth [in this city] <after adopting [Constitution]>",
+			"Only available <in cities without a [Prison Camp]>",
+			"Only available <in cities with a [Kindergarten]>",
+			"Destroyed when the city is captured"
+		],
+		"requiredTech": "Civil Service"
+	},
+	{
+		"name": "Kindergarten",
+		"uniqueTo": "Cyberapes",
+		"replaces": "Food Store",
+		"cost": 20,
+		"hurryCostModifier": -25,
+		"uniques": [
+			"Unsellable",
+			"Free [Kids Care Monkey] appears",
+			"[20]% Food is carried over after population increases [in this city]",
+			"[+15]% growth [in this city] <with [Books]>",
+			"[+1 Food] [in this city] <with [Salt]>",
+			"[-1 Production, +1 Gold, +1 Happiness] [in this city] <with [Alcohol]>",
+			"[-1 Production, +1 Gold, +1 Happiness] [in this city] <with [Narcotics]>",
+			"[-10]% growth [in this city] <with [Alcohol]>",
+			"[-10]% growth [in this city] <with [Narcotics]>",
+			"[-1 Production, -1 Food, +1 Gold] [in this city] <with [Refined Narcotics]>",
+			"[+1 Culture] <when between [15] and [300] Happiness>",
+			"[+1 Culture] <when between [25] and [300] Happiness>",
+		]
+	},
+  	{
+		"name": "Ape Tradition Centre",
+		"isWonder": true,
+		"uniqueTo": "Cyberapes",
+		"happiness": 1,
+	  	"production": 1,
+		"cost": 1,
+		"uniques": [
+			"[2] free [Kids Care Monkey] units appear",
+			"[2] free [Scouter Group] units appear",
+			"Allied City-States provide [Culture] equal to [+15]% of what they produce for themselves",
+			"Allied City-States provide [Faith] equal to [+25]% of what they produce for themselves",
+			"Enables conversion of city production to [Faith]",
+			"Enables conversion of city production to [Culture]",
+			"Can only be built [in capital]",
+			"Gain a free [Kindergarten] [in this city]"
+		],
+		"quote": "quote",
+		"civilopediaText": [
+			{
+				"text": "text (quote)",
+			},
+		]
+	},
+///////////////CityStates///////////
+{
+		"name": "Depletion Park",
+		"uniqueTo": "Exploiters Tribe",
+		"replaces": "Monument",
+		"cost": 1,
+		"culture": 6,
+		"gold": 1,
+		"uniques": [
+                        "Provides [5] [Oil]",
+                        "Provides [1] [Coal]",
+			"Will not be displayed in Civilopedia",
+			"Reveals the entire map"
+		]
+	},
+{
+		"name": "Goodies Consumption",
+		"uniqueTo": "Exploiters Tribe",
+		"cost": 1,
+		"production": 2,
+		"uniques": [
+			"Provides [1] [Ivory]",
+                        "Creates a [Trading post] improvement on a specific tile",
+			"Never destroyed when the city is captured"
+		]
+	}
+
+
+// Mechanized only to not screw over safe files,
+ 	 {
 		"name": "Mechanized Core",
 		"isNationalWonder": true,
-    "replaces": "Bomb Shelter",
-    "uniqueTo": "The Mechanized",
-		"production": 5,
+   		"replaces": "Bomb Shelter",
+  		"uniqueTo": "The Mechanized",
+		"production": 4,
 		"cityHealth": 400,
 		"science": 4,
 		"gold": 2,
 		"cost": 1,
-		"happiness": 2,
+		"happiness": 1,
 		"uniques": ["Indicates the capital city",
-			"Provides [4] [Power]",]
+			"Will not be displayed in Civilopedia",
+			"Provides [4] [Power]"]
 	},
   {
 		"name": "Solar Power AI",
@@ -25,6 +120,7 @@
 			"Free [Guided Missile] appears",
 			"Can only be built [in capital]",
 			"[+1] population [in this city]",
+			"Will not be displayed in Civilopedia",
 			"Gain a free [Life Creation Lab] [in this city]"
 		],
 		"quote": "If an Artificial Intelligence could bring as through the fallout of a contaminated desert, they can surely lead us on our way to make to wasteland usable again.",
@@ -42,11 +138,9 @@
 		"isNationalWonder": true,
 		"uniques": [
 			"[+3] population [in this city]",
+			"Will not be displayed in Civilopedia",
 		]
 	},
-	//[in all cities]
-	//[in this city]
-	//"[+1] population [cityFilter]",
   	{
 		"name": "Artificial Feedery",
     		"replaces": "Ranch",
@@ -59,6 +153,7 @@
 			"[+1] population [in this city]",
 			"Unsellable",
 			"Destroyed when the city is captured",
+			"Will not be displayed in Civilopedia",
 			"Only available <in cities with a [Life Creation Lab]>",
 		],
 		"requiredTech": "Redomestication"
@@ -104,6 +199,7 @@
 		"uniques": [
 			"[+2] population [in this city]",
 			"Only available <in cities with a [Life Creation Lab]>",
+			"Will not be displayed in Civilopedia",
 		],
 		"maintenance": 1,
 		"hurryCostModifier": 25,
@@ -120,7 +216,8 @@
 		"uniques": [
 			"[+2] population [in this city]",
 			"Must be next to [Coast]",
-			"[+1 Food] from [Coast] tiles [in this city]"
+			"[+1 Food] from [Coast] tiles [in this city]",
+			"Will not be displayed in Civilopedia"
 		]
 	},
 	{
@@ -132,6 +229,7 @@
 		"uniques": [
 			"[+1 Production] from [Permafrost] tiles [in this city]",
 			"[+1] population [in this city]",
+			"Will not be displayed in Civilopedia",
 			"Consumes [1] [Power]"
 		],
 		"hurryCostModifier": 25,
@@ -148,7 +246,8 @@
 		"uniques": [
 			"[+2] population [in this city]",
 			"Consumes [1] [Power]",
-			"[+1 Gold, +1 Happiness] from [Lakes] tiles [in this city]"
+			"[+1 Gold, +1 Happiness] from [Lakes] tiles [in this city]",
+			"Will not be displayed in Civilopedia",
 		],
 		"requiredTech": "Hydroponics"
 	},
@@ -291,6 +390,7 @@
 			"[+3] population [in this city]",
 			"Unsellable",
 			"Destroyed when the city is captured",
+			"Will not be displayed in Civilopedia",
 			"Only available <with [Harvested Organs]>"
 		],
 		"requiredTech": "Artificial Intelligence"
@@ -343,6 +443,7 @@
 			"Only available <if [Life Creation Lab] is constructed>",
 			"Can only be built [in capital]",
 			"Only available <in cities without a [Mass Breedery]>",
+			"Will not be displayed in Civilopedia",
 			"Destroyed when the city is captured"
 		   
 		]
@@ -362,6 +463,7 @@
 			"Only available <if [Life Creation Lab] is constructed>",
 			"Can only be built [in capital]",
 			"Only available <in cities without a [Mass Energizer]>",
+			"Will not be displayed in Civilopedia",
 			"Destroyed when the city is captured"
 			
 		]
@@ -376,7 +478,8 @@
 		"hurryCostModifier": 0,
 		"requiredTech": "Biology",
 		"uniques": [
-			"[+15]% Production when constructing [Unsellable] buildings [in all cities]"
+			"[+15]% Production when constructing [Unsellable] buildings [in all cities]",
+			"Will not be displayed in Civilopedia",
 			"[+1] population [in this city]",
 			"[+1 Happiness, +1 Science] [in this city] <with [Harvested Organs]>",
 			"Consumes [1] [Power]"
@@ -394,7 +497,8 @@
 			"Unsellable",
 			"Remove extra unhappiness from annexed cities",
 			"Can only be built [in annexed cities]",
-			"Requires at least [3] population"
+			"Requires at least [3] population",
+			"Will not be displayed in Civilopedia",
 			"Provides [4] [Slaves]",
 			"[-2] population [in this city]",
 			"Only available <in cities without a [Listening Post]>",
@@ -417,7 +521,8 @@
 			"Remove extra unhappiness from annexed cities",
 			"[+2 Happiness] [in this city] <after adopting [Constitution]>",
 			"Only available <in cities without a [Enslave Inferiors]>",
-			"Destroyed when the city is captured"
+			"Destroyed when the city is captured",
+			"Will not be displayed in Civilopedia",
 		],
 		"requiredTech": "Networking"
 	},
@@ -433,11 +538,12 @@
 			"[+1 Culture] per [4] population [in this city]",
 			"Unsellable",
 		    	"Consumes [2] [Slaves]",
-			"Only available <if [Enslave Inferiors] is constructed>"
+			"Only available <if [Enslave Inferiors] is constructed>",
 			"[+2] population [in this city]",
 			"Remove extra unhappiness from annexed cities",
 			"Only available <after adopting [Civil Society]>",
-			"Destroyed when the city is captured"
+			"Destroyed when the city is captured",
+			"Will not be displayed in Civilopedia",
 		],
 		"requiredTech": "Civil Service"
 	},
@@ -452,6 +558,7 @@
 			"Destroyed when the city is captured",
 			"Can only be built [in capital]",
 			"Unsellable",
+			"Will not be displayed in Civilopedia",
 		]
 	},
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -468,8 +575,9 @@
 			"Provides [12] [Power]",
 			"Consumes [3] [Coal]",
 			"Only available <in cities without a [Nuclear Plant]>","Only available <in cities without a [Recycling Plant]>",
-			"Only available <in cities with a [Library]>"
+			"Only available <in cities with a [Library]>",
 			"[+2 Production] [in this city] <with [Coal]>",
+			"Will not be displayed in Civilopedia",
 		],
 		"requiredTech": "Steam Power"
 	},
@@ -486,107 +594,9 @@
 			"Consumes [1] [Power]",
 			"Consumes [1] [Uranium]",
 			"Unsellable",
+			"Will not be displayed in Civilopedia",
 		],
 		"hurryCostModifier": 25,
 		"requiredTech": "Decontamination"
 	},
-//CYBERAPES//CYBERAPES//CYBERAPES//CYBERAPES//CYBERAPES//CYBERAPES//CYBERAPES//CYBERAPES//CYBERAPES//CYBERAPES//CYBERAPES//CYBERAPES//CYBERAPES//CYBERAPES
-	{
-		"name": "Child Care Office",
-		"uniqueTo": "Cyberapes",
-		"replaces": "Listening Post",
-		"maintenance": 2,
-		"hurryCostModifier": 25,
-		"uniques": [
-			"[+1 Production] from every specialist [in this city]",
-			"[+1 Happiness] from [Playground] tiles [in this city]",
-			"Free [Kids Care Monkey] appears"
-			"Remove extra unhappiness from annexed cities",
-			"[+75]% Great Person generation [in this city]",
-			"[+25]% growth [in this city] <after adopting [Constitution]>",
-			"Only available <in cities without a [Prison Camp]>",
-			"Only available <in cities with a [Kindergarten]>",
-			"Destroyed when the city is captured"
-		],
-		"requiredTech": "Civil Service"
-	},
-	{
-		"name": "Kindergarten",
-		"uniqueTo": "Cyberapes",
-		"replaces": "Food Store",
-		"cost": 20,
-		"hurryCostModifier": -25,
-		"uniques": [
-			"Unsellable"
-			"Free [Kids Care Monkey] appears"
-			"[20]% Food is carried over after population increases [in this city]",
-			"[+15]% growth [in this city] <with [Books]>",
-			/*"[+15]% growth [in this city] <with [Data]>",
-			"[+5]% growth [in this city] <with [Electronics]>",
-			"[+5]% growth [in this city] <with [Gems]>",
-			"[+5]% growth [in this city] <with [Machine Parts]>",
-			"[+5]% growth [in this city] <with [Fabrics]>",
-			"[+5]% growth [in this city] <with [Medicin]>",
-			"[+5]% growth [in this city] <with [Honey]>",*/
-			"[+1 Food] [in this city] <with [Salt]>",
-			"[-1 Production, +1 Gold, +1 Happiness] [in this city] <with [Alcohol]>",
-			"[-1 Production, +1 Gold, +1 Happiness] [in this city] <with [Narcotics]>",
-			"[-10]% growth [in this city] <with [Alcohol]>",
-			"[-10]% growth [in this city] <with [Narcotics]>",
-			"[-1 Production, -1 Food, +1 Gold] [in this city] <with [Refined Narcotics]>",
-			"[+2 Culture] <when between [15] and [300] Happiness>"
-		]
-	},
-//<after discovering [Trade]>
-  {
-		"name": "Ape Tradition Centre",
-		"isWonder": true,
-		"uniqueTo": "Cyberapes",
-		"happiness": 1,
-	  	"production": 1,
-		"cost": 1,
-		"uniques": [
-			"[2] free [Kids Care Monkey] units appear",
-			"[2] free [Scouter Group] units appear",
-			"Allied City-States provide [Culture] equal to [+15]% of what they produce for themselves",
-			"Allied City-States provide [Faith] equal to [+25]% of what they produce for themselves",
-			"Enables conversion of city production to [Faith]",
-			"Enables conversion of city production to [Culture]",
-			"Empire enters golden age",
-			"Can only be built [in capital]",
-			"Gain a free [Kindergarten] [in this city]"
-		],
-		"quote": "quote",
-		"civilopediaText": [
-			{
-				"text": "text (quote)",
-			},
-		]
-	},
-///////////////CityStates///////////
-{
-		"name": "Depletion Park",
-		"uniqueTo": "Exploiters Tribe",
-		"replaces": "Monument",
-		"cost": 1,
-		"culture": 6,
-		"gold": 1,
-		"uniques": [
-                        "Provides [5] [Oil]",
-                        "Provides [1] [Coal]",
-			"Will not be displayed in Civilopedia",
-			"Reveals the entire map"
-		]
-	},
-{
-		"name": "Goodies Consumption",
-		"uniqueTo": "Exploiters Tribe",
-		"cost": 1,
-		"production": 2,
-		"uniques": [
-			"Provides [1] [Ivory]",
-                        "Creates a [Trading post] improvement on a specific tile",
-			"Never destroyed when the city is captured"
-		]
-	}
   ]
