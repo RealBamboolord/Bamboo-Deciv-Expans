@@ -1,29 +1,361 @@
 [
-	{
-		"name": "Gunner Drone",
-    		"replaces": "Blimp",
-    		"uniqueTo": "The Mechanized",
-		"unitType": "Helicopter",
+	//TCC
+        {
+		"name": "Secret Bowman",
+		"unitType": "Shooter",
+		"uniqueTo": "TCC",
+		"replaces": "Archer",
 		"range": 1,
-		"interceptRange": 1,
-		"movement": 4,
-		"strength": 12,
-		"rangedStrength": 18,
-		"cost": 55,
-		"requiredTech": "Construction",
-		"obsoleteTech": "Gyroscopes",
-		"upgradesTo": "Helicopter",
-		"uniques": [
-			"[+25]% Strength <vs [Armor] units>",
-			"Can move after attacking",
-			"[-25]% Strength <vs cities> <when attacking>",
-			"May withdraw before melee ([75]%)",
-			"Never appears as a Barbarian unit"
-			"Consumes [1] [Power]",
-		],
-		"promotions": ["Automated"],
+		"movement": 2,
+		"strength": 15,
+		"rangedStrength": 15,
+		"cost": 60,
 		"hurryCostModifier": 20,
+		"requiredTech": "Iron Working",
+		"obsoleteTech": "Rifling",
+		"upgradesTo": "Gunman",
+		"uniques": [
+			"Low Tech",
+			"Invisible to non-adjacent units",
+                        "Can see invisible [Land] units",
+                        "May enter foreign tiles without open borders"
+		],
+		"promotions": ["Urban Warfare I", "Reconnaissance I"],
+		"attackSound": "arrow"
+	},
+	{
+		"name": "Cavern Expander",
+		"unitType": "Civilian",
+		"uniqueTo": "TCC",
+		"replaces": "Civilian Convoy",
+		"movement": 2,
+		"cost": 160,
+		"uniques": [
+			"Founds a new city <by consuming this unit>",
+			"[+15] HP when healing","Can move immediately once bought","Unit will heal every turn, even if it performs an action",
+			"Uncapturable","Can pass through impassable tiles",
+			"Invisible to others","May enter foreign tiles without open borders",
+		],
+		"hurryCostModifier": 20
+	},
+	{
+		"name": "Counter - Food",
+                "uniqueTo": "TCC",
+                "replaces": "Great Farmer",
+		"unitType": "Civilian",
+		"uniques": [
+            		"Empire enters a [12]-turn Golden Age <by consuming this unit>",
+			"Can instantly construct a [Settlement] improvement <by consuming this unit>",
+                        "Can instantly construct a [Factory farm] improvement <by consuming this unit>",
+			"Great Person - [Food]",
+			"Unbuildable",
+			"Uncapturable"
+		],
+		"movement": 2
+	},
+	{
+		"name": "Sectleader",
+                "uniqueTo": "TCC",
+                "replaces": "Great Sage",
+		"unitType": "Civilian",
+		"uniques": [
+			"Can Spread Religion <for [2] movement> <[4] times> <after which this unit is consumed>",
+			"Removes other religions when spreading religion",
+			"May found a religion",
+			"May enhance a religion",
+			"May enter foreign tiles without open borders",
+			"When spreading religion to a city, gain [3] times the amount of followers of other religions as [Culture]",
+			"Can remove other religions from cities <in [Friendly] tiles> <for [2] movement> <once>",
+			"[-1] Sight",
+			"Great Person - [Faith]",
+			"Unbuildable",
+			"Uncapturable",
+			"Religious Unit",
+			"Hidden when religion is disabled",
+			"Takes your religion over the one in their birth city"
+		],
+		"movement": 2,
+		"religiousStrength": 1000
+	},
+	{
+		"name": "Counter - History",
+                "uniqueTo": "TCC",
+                "replaces": "Great Scientist",
+		"unitType": "Civilian",
+		"uniques": [
+            		"Empire enters a [12]-turn Golden Age <by consuming this unit>",
+			"Can instantly construct a [Preservator] improvement <by consuming this unit>",
+			"Can instantly construct a [Academy] improvement <by consuming this unit> <starting from the [Neofeudal era]>",
+			"Great Person - [History]",
+			"Unbuildable",
+			"Uncapturable"
+		],
+		"movement": 2
+	},
+	{
+		"name": "Counter - Economy",
+                "uniqueTo": "TCC",
+                "replaces": "Great Merchant",
+		"unitType": "Civilian",
+		"uniques": [
+			"Can undertake a trade mission with City-State, giving a large sum of gold and [60] Influence",
+			"Can hurry technology research",
+			"Can speed up the construction of a wonder",
+			"Great Person - [Economy]",
+			"Unbuildable",
+			"Uncapturable"
+		],
+		"movement": 2
+	},
+	{
+		"name": "Counter - Industry",
+                "uniqueTo": "TCC",
+                "replaces": "Great Engineer",
+		"unitType": "Civilian",
+		"uniques": [
+			"Can instantly construct a [Manufactory] improvement <by consuming this unit> <if it hasn't used other actions yet>",
+			"Can instantly construct a [Citadel] improvement <by consuming this unit> <[2] times> <after which this unit is consumed>",
+			"Great Person - [Industry]",
+			"Unbuildable",
+			"Uncapturable"
+		],
+		"movement": 2
+	},
+        {
+		"name": "Counter - Arts",
+                "replaces": "Great Administrator",
+		"uniqueTo": "TCC",
+		"unitType": "Civilian",
+		"uniques": [
+            		"Empire enters a [12]-turn Golden Age <by consuming this unit>",
+			"Can instantly construct a [Memorial Site] improvement <by consuming this unit>",
+			"Great Person - [Arts]",
+			"Unbuildable",
+			"Uncapturable"
+		],
+		"movement": 2
+	},
+	{
+		"name": "Death Counter",
+                "uniqueTo": "TCC",
+                "replaces": "Great General",
+		"unitType": "Civilian",
+		"uniques": [
+			"[+25]% Strength bonus for [Military] units within [1] tiles",
+			"Great Person - [War]",
+			"Unbuildable",
+			"Uncapturable",
+			"Can transform to [Death Laser]",
+			"Can be earned through combat",
+			"This Unit upgrades for free including special upgrades <upon ending a turn in a [Foreign Land] tile> <for [AI player]>",
+			"May upgrade to [Death Laser] through ruins-like effects"
+		],
+		"movement": 2
+	},
+	{
+		"name": "Death Laser",
+                "uniqueTo": "TCC",
+                "replaces": "Machine Gun",
+		"unitType": "Siege",
+		"range": 1,
+		"movement": 2,
+		"strength": 100,
+		"rangedStrength": 32,
+		"interceptRange": 2,
+		"cost": 450,
+		"uniques": [
+			"Can transform to [Death Counter]",
+			"[-90]% Strength <vs [Melee] units> <when defending>",
+			"[-2] Sight",
+			"Must set up to ranged attack",
+			"[+400]% Strength <when attacking>",
+			"Destroys tile improvements when attacking",
+			"No damage penalty for wounded units",
+			"[25]% chance to intercept air attacks",
+			"[+200]% maintenance costs",
+			"Can only heal by pillaging",
+			"Great Unit - War",
+			"Cannot be purchased",
+			"Unbuildable",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": [ "Promotion Nullifier"],
+		"hurryCostModifier": 20,
+		"attackSound": "phasers"
+	},
+	//Cyberapes
+	{
+		"name": "Mandrill",
+		"unitType": "Civilian",
+		"replaces": "Great General",
+		"uniqueTo": "Cyberapes",
+		"uniques": [
+			"Empire enters a [8]-turn Golden Age <by consuming this unit>",
+			"[+15]% Strength bonus for [Military] units within [2] tiles",
+			"[+25]% Strength bonus for [Gorilla] units within [3] tiles",
+			"Can instantly construct a [Citadel] improvement <by consuming this unit>",
+			"Great Person - [War]",
+			"Unbuildable",
+			"Uncapturable"
+		],
+		"movement": 3
+	},
+	{
+		"name": "Bomb Thrower",
+		"unitType": "Gorilla",
+		"replaces": "Technical",
+		"uniqueTo": "Cyberapes",
+		"range": 2,
+		"movement": 2,
+		"strength": 20,
+		"rangedStrength": 40,
+		"cost": 150,
+		"requiredTech": "Replaceable Parts",
+		//"upgradesTo": "Missile Vehicle",
+		//"obsoleteTech": "Lasers",
+		"uniques": [
+			"No defensive terrain bonus",
+			"[+50]% Strength <vs [Armor] units>",
+			"[+150]% Strength <vs cities> <when attacking>",
+			"Withdraws before melee combat <with [20]% chance>",
+			"Consumes [1] [Weapons]",
+			"[-1] Sight",
+			"Only available <if [Gen Restoration Project] is constructed>"
+		],
+		"hurryCostModifier": 20,
+		"promotions": ["Infantry Mortar","Infantry Weapons"],
+		"attackSound": "tankshot"
+	},
+	{
+		"name": "Gorilla Kid",
+		"unitType": "Gorilla",
+		"uniqueTo": "Cyberapes",
+		"movement": 2,
+		"strength": 21,
+		"interceptRange": 1,
+		"cost": 75,
+		"upgradesTo": "Battle Gorilla",
+		"hurryCostModifier": 20,
+		"requiredTech": "Civil Service",
+		"obsoleteTech": "Lasers",
+		"uniques": ["Low Tech",
+			"[+75]% XP gained from combat",
+			"[+10]% Strength <vs [Personnel] units>",
+			"[+25]% Strength <vs [Low Tech] units>",
+			"Only available <if [Gen Restoration Project] is constructed>"],
+		"promotions": [
+			"Reconnaissance I"
+		],
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Battle Gorilla",
+		"unitType": "Gorilla",
+		"uniqueTo": "Cyberapes",
+		"movement": 2,
+		"strength": 42,
+		"interceptRange": 1,
+		"cost": 150,
+		"upgradesTo": "Primal Gorilla",
+		"hurryCostModifier": 20,
+		"requiredTech": "Rifling",
+		"obsoleteTech": "Energy Weapons",
+		"uniques": ["Personnel",
+			"[+30]% Strength <vs [Personnel] units>",
+			"[+15]% Strength <vs [Low Tech] units>",
+			"Only available <if [Gen Restoration Project] is constructed>"],
+		"promotions": [
+			"Reconnaissance I"
+		],
 		"attackSound": "shot"
+	},
+	{
+		"name": "Primal Gorilla",
+		"unitType": "Gorilla",
+		"uniqueTo": "Cyberapes",
+		"movement": 2,
+		"strength": 65,
+		"interceptRange": 1,
+		"cost": 300,
+		"requiredTech": "Energy Weapons",
+		"hurryCostModifier": 20,
+		"uniques": [
+			"Personnel",
+			"Consumes [2] [Weapons]",
+			"[+30]% Strength <vs [Personnel] units>",
+			"[+150]% Strength <vs [Low Tech] units>",
+			"Only available <if [Gen Restoration Project] is constructed>",
+			"Limited to [5] per Civilization"],
+		"promotions": [
+			"Reconnaissance I",
+			"Urban Warfare I",
+			"Guerilla Warfare I"
+		],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Loudmouth",
+		"unitType": "Gorilla",
+		"uniqueTo": "Cyberapes",
+		"range": 2,
+		"movement": 2,
+		"strength": 30,
+		"rangedStrength": 30,
+		"interceptRange": 1,
+		"cost": 150,
+		"requiredTech": "Radio",
+		"upgradesTo": "Noisemaker",
+		"obsoleteTech": "Social Engineering",
+		"hurryCostModifier": 20,
+		"uniques": ["Personnel", "Consumes [1] [Weapons]", "[-15]% Strength for enemy [Personnel] units in adjacent [Land] tiles",
+					 "[+15]% Strength for enemy [Personnel] units in adjacent [City center] tiles",
+					 "[+15]% Strength when stacked with [Mandrill]",
+					 "Can only attack [Land] tiles",
+					 "Ranged attacks may be performed over obstacles",
+					 "Religious Unit",
+					 "Can Spread Religion <for [4] movement> <once>",
+					 "Only available <if [Gen Restoration Project] is constructed>"
+			],
+		"religiousStrength": 500
+		"attackSound": "shot"
+	},
+	{
+		"name": "Noisemaker",
+		"unitType": "Gorilla",
+		"uniqueTo": "Cyberapes",
+		"range": 2,
+		"movement": 3,
+		"strength": 45,
+		"rangedStrength": 45,
+		"interceptRange": 1,
+		"cost": 300,
+		"requiredTech": "Social Engineering",
+		"hurryCostModifier": 20,
+		"uniques": ["Personnel", "Consumes [1] [Weapons]", "[-20]% Strength for enemy [Personnel] units in adjacent [Land] tiles",
+					 "[+20]% Strength for enemy [Personnel] units in adjacent [City center] tiles",
+					 "[+20]% Strength when stacked with [Mandrill]",
+					 "Ranged attacks may be performed over obstacles",
+					 "Religious Unit",
+					 "Can Spread Religion <for [4] movement> <[2] times>",
+					 "Only available <if [Gen Restoration Project] is constructed> <if [Broadcast Network] is constructed>",
+			],
+		"promotions": ["Gas Mask"],
+		"religiousStrength": 750
+		"attackSound": "shot"
+	},
+	{
+		"name": "NFT Monkey",
+		"uniqueTo": "Cyberapes",
+		"replaces": "Great Merchant",
+		"unitType": "Civilian",
+		"uniques": [
+			"Can undertake a trade mission with City-State, giving a large sum of gold and [50] Influence",
+			"Can instantly construct a [Banana Business Area] improvement <by consuming this unit>",
+			"Great Person - [Gold]",
+			"Unbuildable",
+			"Uncapturable"
+		],
+		"movement": 1
 	},
 	{
 		"name": "Terrain Controller",
@@ -45,7 +377,7 @@
 	},
   	{
 		"name": "Scouter Group",
-		"unitType": "Mounted",
+		"unitType": "Scrapper",
 		"uniqueTo": "Cyberapes",
 		"replaces": "Scout",
 		"movement": 3,
@@ -62,16 +394,20 @@
 		"name": "Kids Care Monkey",
 		"unitType": "Civilian",
 		"uniqueTo": "Cyberapes",
-		"replaces": "Mechanized Worker",
-		"movement": 3,
+		"replaces": "Mounted Worker",
+		"movement": 2,
 		"cost": 1,
 		"uniques": [
 			"Unbuildable",
 			"Can instantly construct a [Playground] improvement <by consuming this unit>",
 			"Can build [Salvage site] improvements on tiles",
+			"Can build [Tree plantation] improvements on tiles",
+			"Can build [Jungle Replanting Zone] improvements on tiles",
 			"Can build [Mine] improvements on tiles"
 		]
 	},
+
+	//Exploiters Tribe
 	{
 		"name": "Brute",
                 "uniqueTo": "Exploiters Tribe",
@@ -81,5 +417,54 @@
 		"hurryCostModifier": 20,
 		"uniques": ["Can build [Land] improvements on tiles","[+1] Sight","[-100]% maintenance costs"],
 		"cost": 50
+	},
+	
+	//Mechanized
+	{
+		"name": "Wire Planter",
+		"unitType": "Civilian",
+		"replaces": "Mounted Worker",
+		"uniqueTo": "The Mechanized",
+		"requiredTech": "Engineering",
+		"cost": 70,
+		"movement": 2,
+		"hurryCostModifier": 20,
+		"replacementTextForUniques": "Can construct all kind of Wire Traps",
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Can instantly construct a [Wire Trapped Solar collector] improvement <by consuming this unit>",
+			"Can instantly construct a [Wire Trapped Energy farm] improvement <by consuming this unit>",
+			"Can instantly construct a [Wire Trapped Trench] improvement <by consuming this unit>",
+			"Can instantly construct a [Wire Trapped Fort] improvement <by consuming this unit>",
+			"Can instantly construct a [Wire Trapped Survivor camp] improvement <by consuming this unit>",
+			"Can instantly construct a [Wire Trapped City ruins] improvement <by consuming this unit>",
+		]
+	},
+	{
+		"name": "Gunner Drone",
+    		"replaces": "Blimp",
+    		"uniqueTo": "The Mechanized",
+		"unitType": "Helicopter",
+		"range": 1,
+		"interceptRange": 1,
+		"movement": 4,
+		"strength": 12,
+		"rangedStrength": 18,
+		"cost": 55,
+		"requiredTech": "Construction",
+		"obsoleteTech": "Gyroscopes",
+		"upgradesTo": "Helicopter",
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"[+25]% Strength <vs [Armor] units>",
+			"Can move after attacking",
+			"[-25]% Strength <vs cities> <when attacking>",
+			"May withdraw before melee ([75]%)",
+			"Never appears as a Barbarian unit",
+			"Consumes [1] [Power]",
+		],
+		"promotions": ["Automated"],
+		"hurryCostModifier": 20,
+		"attackSound": "shot"
 	},
 ]
