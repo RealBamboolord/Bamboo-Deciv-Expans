@@ -1,28 +1,134 @@
 [
+///Cyberapes
+	{
+		"name": "Jungle Replanting Zone",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniqueTo": "Cyberapes",
+		"culture": 1,
+		"turnsToBuild": 10,
+		"uniques": [
+			"Food source",
+			"[+1 Culture, +1 Production] <with [1] to [6] neighboring [City center] tiles>",
+			"[+1 Food] <after discovering [Land Remediation]>",
+			"[+1 Production] <after discovering [Genetics]>",
+			"[+1 Food, -1 Gold] from [Fresh water] tiles",
+			"Gives a defensive bonus of [10]%",
+			"Pillaging this improvement yields approximately [+30 Culture]",
+			"Only available <if [Rainforest Restoration Project] is constructed>"
+		]
+	},
+	{
+		"name": "Banana Business Area"
+		"terrainsCanBeBuiltOn": ["Land"],
+		"gold": 4,
+		"food": 1,
+		"uniques": [
+			"Food source",
+			"Great Improvement",
+			"[+1 Food] <with [1] to [6] neighboring [Jungle Replanting Zone] tiles>",
+			"[+2 Gold] <after discovering [Plastics]>",
+			"Gives a defensive bonus of [10]%",
+			"Pillaging this improvement yields approximately [+30 Gold]",
+			"Provides [1] [Bananas]",
+		]
+	},
 	{
 		"name": "Playground",
 		"happiness": 1,
 		"terrainsCanBeBuiltOn": ["Jungle"],
-		"uniqueTo": "Cyberapes",
 		"uniques": [
 		"Great Improvement",
 		"[+1 Science] for each adjacent [Academy]",
 		"[+1 Culture, +1 Happiness] for each adjacent [Settlement]",
+		"[+1 Culture, +1 Happiness, +1 Gold] for each adjacent [Banana Business Area]",
 		"[-1 Happiness, +1 Production] for each adjacent [Outpost]",
 		"[+2 Culture, +1 Happiness, -2 Food] for each adjacent [Narcotics farm]",
-		"[+1 Food, -1 Happiness] for each adjacent [Prison farm]",
+		"[+2 Food, -1 Happiness] for each adjacent [Prison farm]",
+		"[+1 Food, +1 Happiness] for each adjacent [Factory farm]",
 		"[+1 Culture, +1 Faith] for each adjacent [Oracle]",
 		"[+1 Happiness] for each adjacent [Manufactory]",
 		"[+1 Gold] for each adjacent [Citadel]",
 		"[+1 Faith] for each adjacent [Seminary]",
 		"[+2 Faith] for each adjacent [Crystal Refinery]",
+		"[+1 Culture] for each adjacent [Preservator]",
+		"[+1 Culture] for each adjacent [Memorial Site]",
+		"Cannot be built on [Luxury resource] tiles",
 		"Cannot be built on [Bonus resource] tiles",
 		"Cannot be built on [Strategic resource] tiles",
-		"Cannot be built on [Luxury resource] tiles",
 		"Pillaging this improvement yields approximately [+15 Culture]"
 		]
-    },
+	},
+///TCC
        {
+		"name": "Memorial Site",
+		"culture": 3,
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": [
+			"Great Improvement",
+			"[+1 Culture] <after discovering [Mining]>",
+			"[+1 Culture] <after discovering [Currency]>",
+			"[+2 Culture] <after discovering [Railroads]>",
+			"[+1 Culture, +1 Happiness] <after discovering [Flight]>",
+			"[+1 Culture] <after discovering [Incentivization]>",
+			"[+1 Culture] <after discovering [Globalization]>",
+			"Can be built just outside your borders",
+			"Gives a defensive bonus of [10]%",
+                        "Pillaging this improvement yields approximately [+20 Gold]",
+		]
+	},
+       {
+		"name": "Preservator",
+		"science": 1,
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": [
+			"Great Improvement",
+			"Tile provides yield without assigned population",
+			"Ensures a minimum tile yield of [+1 Production]",
+			"[+2 Food, +2 Gold] <in [Fallout] tiles>",
+			"[+2 Food, +2 Gold] <in [Toxic Waste] tiles>",
+			"[+1 Culture] <after discovering [Education]>",
+			"[+1 Production] <after discovering [Laboratory]>",
+			"[+1 Science] <after discovering [Decryption]>",
+			"Only available <in [Land] tiles>",
+			"Does not need removal of [Forest]",
+			"Does not need removal of [Jungle]",
+			"Does not need removal of [Toxic Waste]",
+			"Does not need removal of [Fallout]",
+			"Improves [Scrap] resource in this tile",
+			"Improves [Plastics] resource in this tile",
+			"Improves [Artifacts] resource in this tile",
+			/*
+			"Provides [1] [Coal] <in [Hill] tiles> <in tiles without [Forest]> <in tiles without [Jungle]> <in tiles without [Fallout]>",
+			"Provides [1] [Artifacts] <in [Jungle] tiles> <in [Wasteland] tiles>",
+			"Provides [1] [Electronics] <in [Jungle] tiles> <in [Badlands] tiles>",
+			"Provides [1] [Machine Parts] <in [Jungle] tiles> <in [Tundra] tiles>",
+			"Provides [1] [Artifacts] <in [Jungle] tiles> <in [Desert] tiles>",
+			"Provides [1] [Machine Parts] <in [Jungle] tiles> <in [Permafrost] tiles>",
+			"Provides [1] [Aluminum] <in [Featureless] [Permafrost] tiles>",
+			"Provides [1] [Oil] <in [Featureless] [Tundra] tiles>",
+			*/
+			"Cannot be built on [Grain] tiles",
+			"Cannot be built on [Tubers] tiles",
+			"Cannot be built on [Metal] tiles",
+			"Cannot be built on [Insects] tiles",
+			"Cannot be built on [Horses] tiles",
+			"Cannot be built on [Oil] tiles",
+			"Cannot be built on [Weapons] tiles",
+			"Cannot be built on [Power] tiles",
+			"Cannot be built on [Coal] tiles",
+			"Cannot be built on [Aluminum] tiles",
+			"Cannot be built on [Uranium] tiles",
+			"Cannot be built on [Cattle] tiles",
+			"Cannot be built on [Goats] tiles",
+			"Cannot be built on [Deer] tiles",
+			"Cannot be built on [Furs] tiles",
+			"Cannot be built on [Hostile Fauna] tiles",
+			"Cannot be built on [Hogs] tiles",
+                        "Pillaging this improvement yields approximately [+20 Gold]",
+		]
+	},
+//Exploiters Tribe
+	{
 		"name": "Trading post",
 		"production": 2,
                 "gold": 2,
@@ -39,4 +145,107 @@
 		]
 	},
 
+	//Only for Civilopedia
+	/*{
+		"name": "Exposed Wire Trap",
+    		"uniqueTo": "The Mechanized",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": [
+			"Consumes [1] [Power]",
+			"Pillaging this improvement yields approximately [+30 Gold]",
+      			"Can be camouflaged as a Solar Collector, an Energy Farm, consuming Power instead of granting resources",
+      			"Can be camouflaged as Trenches and Forts, yielding same defence bonus but consuming Power",
+      			"Can also be camouflaged as City ruins and Survivor camps to trick players",
+			"Adjacent enemy units ending their turn take [20] damage",
+			"Unbuildable"
+		],
+	},*/
+	{
+		"name": "Wire Trapped Solar collector",
+		"uniqueTo": "The Mechanized",
+		"terrainsCanBeBuiltOn": ["Badlands","Wasteland","Desert"],
+		"production": 1,
+		"techRequired": "Electronics",
+		"uniques": [
+			"Wire Trapped",
+			"Consumes [1] [Power]",
+			"Pillaging this improvement yields approximately [+30 Gold]",
+			"Adjacent enemy units ending their turn take [20] damage",
+			"Will not be displayed in Civilopedia",
+			"Unbuildable",
+		],
+	},
+	{
+		"name": "Wire Trapped Energy farm",
+		"uniqueTo": "The Mechanized",
+		"terrainsCanBeBuiltOn": ["Swamp"],
+		"production": 1,
+		"gold": -1,
+		"techRequired": "Biology",
+		"uniques": [
+			"Wire Trapped",
+			"Can also be built on tiles adjacent to fresh water",
+			"Consumes [1] [Power]",
+			"Pillaging this improvement yields approximately [+30 Gold]",
+			"Adjacent enemy units ending their turn take [20] damage",
+			"Will not be displayed in Civilopedia",
+			"Unbuildable",
+		],
+	},
+	{
+		"name": "Wire Trapped Trench",
+		"uniqueTo": "The Mechanized",
+		"terrainsCanBeBuiltOn": ["Badlands","Wasteland","Desert","Hill","Tundra","Permafrost"],
+		"uniques": [
+			"Wire Trapped",
+			"Consumes [1] [Power]",
+			"Gives a defensive bonus of [25]%",
+			"Pillaging this improvement yields approximately [+30 Gold]",
+			"Adjacent enemy units ending their turn take [20] damage",
+			"Will not be displayed in Civilopedia",
+			"Unbuildable",
+		],
+	},
+	{
+		"name": "Wire Trapped Fort",
+		"uniqueTo": "The Mechanized",
+		"terrainsCanBeBuiltOn": ["Badlands","Wasteland","Desert","Hill","Tundra","Permafrost"],
+		"techRequired": "Engineering",
+		"uniques": [
+			"Wire Trapped",
+			"Consumes [1] [Power]",
+			"Gives a defensive bonus of [50]%",
+			"Pillaging this improvement yields approximately [+30 Gold]",
+			"Adjacent enemy units ending their turn take [20] damage",
+			"Will not be displayed in Civilopedia",
+			"Unbuildable",
+		],
+	},
+	{
+		"name": "Wire Trapped Survivor camp",
+		"uniqueTo": "The Mechanized",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": [
+			"Wire Trapped",
+			"Consumes [1] [Power]",
+			"Pillaging this improvement yields approximately [+30 Gold]",
+			"Adjacent enemy units ending their turn take [20] damage",
+			"Will not be displayed in Civilopedia",
+			"Unbuildable"
+		]
+	},
+	{
+		"name": "Wire Trapped City ruins",
+		"uniqueTo": "The Mechanized",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": [
+			"Wire Trapped",
+			"Consumes [1] [Power]",
+			"Gives a defensive bonus of [10]%",
+			"Pillaging this improvement yields approximately [+30 Gold]",
+			"Adjacent enemy units ending their turn take [20] damage",
+			"Will not be displayed in Civilopedia",
+			"Unbuildable",
+		]
+	},
   ]
