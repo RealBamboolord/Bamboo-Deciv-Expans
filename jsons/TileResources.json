@@ -1,10 +1,19 @@
 [
-{
+	{
 		"name": "Ivory",
  		"resourceType": "Luxury",
 		"gold": 2,
                 "uniques": [
 			"[+10]% [Culture] [in all cities]",
-	 ]
- },
+	 	]
+	},
+	{
+		"name": "Bananas",
+ 		"resourceType": "Luxury",
+		"gold": 1,
+		"food": 1,
+                "uniques": [
+			"[+5]% [Food] [in all cities]",
+	 	]
+ 	},
 ]
