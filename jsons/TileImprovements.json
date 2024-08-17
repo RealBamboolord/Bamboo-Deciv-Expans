@@ -53,6 +53,8 @@
 		"[+1 Culture] for each adjacent [Preservator]",
 		"[+1 Culture] for each adjacent [Memorial Site]",
 		"Cannot be built on [Luxury resource] tiles",
+		"Cannot be built on [Bonus resource] tiles",
+		"Cannot be built on [Strategic resource] tiles",
 		"Pillaging this improvement yields approximately [+15 Culture]"
 		]
 	},
