@@ -143,4 +143,107 @@
 		]
 	},
 
+	//Only for Civilopedia
+	/*{
+		"name": "Exposed Wire Trap",
+    		"uniqueTo": "The Mechanized",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": [
+			"Consumes [1] [Power]",
+			"Pillaging this improvement yields approximately [+30 Gold]",
+      			"Can be camouflaged as a Solar Collector, an Energy Farm, consuming Power instead of granting resources",
+      			"Can be camouflaged as Trenches and Forts, yielding same defence bonus but consuming Power",
+      			"Can also be camouflaged as City ruins and Survivor camps to trick players",
+			"Adjacent enemy units ending their turn take [20] damage",
+			"Unbuildable"
+		],
+	},*/
+	{
+		"name": "Wire Trapped Solar collector",
+		"uniqueTo": "The Mechanized",
+		"terrainsCanBeBuiltOn": ["Badlands","Wasteland","Desert"],
+		"production": 1,
+		"techRequired": "Electronics",
+		"uniques": [
+			"Wire Trapped",
+			"Consumes [1] [Power]",
+			"Pillaging this improvement yields approximately [+30 Gold]",
+			"Adjacent enemy units ending their turn take [20] damage",
+			"Will not be displayed in Civilopedia",
+			"Unbuildable",
+		],
+	},
+	{
+		"name": "Wire Trapped Energy farm",
+		"uniqueTo": "The Mechanized",
+		"terrainsCanBeBuiltOn": ["Swamp"],
+		"production": 1,
+		"gold": -1,
+		"techRequired": "Biology",
+		"uniques": [
+			"Wire Trapped",
+			"Can also be built on tiles adjacent to fresh water",
+			"Consumes [1] [Power]",
+			"Pillaging this improvement yields approximately [+30 Gold]",
+			"Adjacent enemy units ending their turn take [20] damage",
+			"Will not be displayed in Civilopedia",
+			"Unbuildable",
+		],
+	},
+	{
+		"name": "Wire Trapped Trench",
+		"uniqueTo": "The Mechanized",
+		"terrainsCanBeBuiltOn": ["Badlands","Wasteland","Desert","Hill","Tundra","Permafrost"],
+		"uniques": [
+			"Wire Trapped",
+			"Consumes [1] [Power]",
+			"Gives a defensive bonus of [25]%",
+			"Pillaging this improvement yields approximately [+30 Gold]",
+			"Adjacent enemy units ending their turn take [20] damage",
+			"Will not be displayed in Civilopedia",
+			"Unbuildable",
+		],
+	},
+	{
+		"name": "Wire Trapped Fort",
+		"uniqueTo": "The Mechanized",
+		"terrainsCanBeBuiltOn": ["Badlands","Wasteland","Desert","Hill","Tundra","Permafrost"],
+		"techRequired": "Engineering",
+		"uniques": [
+			"Wire Trapped",
+			"Consumes [1] [Power]",
+			"Gives a defensive bonus of [50]%",
+			"Pillaging this improvement yields approximately [+30 Gold]",
+			"Adjacent enemy units ending their turn take [20] damage",
+			"Will not be displayed in Civilopedia",
+			"Unbuildable",
+		],
+	},
+	{
+		"name": "Wire Trapped Survivor camp",
+		"uniqueTo": "The Mechanized",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": [
+			"Wire Trapped",
+			"Consumes [1] [Power]",
+			"Pillaging this improvement yields approximately [+30 Gold]",
+			"Adjacent enemy units ending their turn take [20] damage",
+			"Will not be displayed in Civilopedia",
+			"Unbuildable"
+		]
+	},
+	{
+		"name": "Wire Trapped City ruins",
+		"uniqueTo": "The Mechanized",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": [
+			"Wire Trapped",
+			"Consumes [1] [Power]",
+			"Gives a defensive bonus of [10]%",
+			"Pillaging this improvement yields approximately [+30 Gold]",
+			"Adjacent enemy units ending their turn take [20] damage",
+			"Will not be displayed in Civilopedia",
+			"Unbuildable",
+		]
+	},
   ]
