@@ -114,7 +114,8 @@
 		"uniques": [
 			"[2] free [Secret Bowman] units appear",
 			"Can only be built <in [in capital] cities>",
-			"[+20 Gold, +20 Culture] whenever a Great Person is expended",
+			"Gain [20] [Gold] <upon expending a [Great Person] unit> <(modified by game speed)>",
+			"Gain [20] [Culture] <upon expending a [Great Person] unit> <(modified by game speed)>",
 			"[+3 Culture, +2 Science, +1 Gold] for every known Natural Wonder"
 		],
 		"quote": "quote",
@@ -150,8 +151,7 @@
                         "1 Archivar slot",
 			"[+2 Science] [in this city] <with [Data]>",
 			"[+1 Science] per [2] population [in this city]",
-			"[+1 Science, +1 Culture] from [Books] tiles [in this city]",
-			"Enables construction of [Power] buildings"
+			"[+1 Science, +1 Culture] from [Books] tiles [in this city]"
 		],
 		"requiredTech": "Writing"
 	},
@@ -266,7 +266,6 @@
 		"uniques": [
                         "2 Entrepreneur Slots",
 			"Only available <in cities with a [Library]>",
-			"Enables construction of [advanced] units",
 			"[+3 Production] [in this city] <with [Power]>",
 			"[+1 Production] [in this city] <with [Machine Parts]>",
 			"[+1 Production] from [Machine Parts] tiles [in this city]",
