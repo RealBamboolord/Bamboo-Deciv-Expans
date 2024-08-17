@@ -1,0 +1,86 @@
+[
+	{
+		"columnNumber": 1,
+		"era": "Decivilized era",
+		"techCost": 60,
+		"buildingCost": 60,
+		"wonderCost": 125,
+		"techs": [
+			{
+				"name": "Sailing",
+				"row": 1,
+				"prerequisites": ["The Wheel"],
+				"uniques": ["Enables embarkation for land units","Unavailable <for [TCC]> <before discovering [Secrets of the Past]> <hidden from users>"],
+				"quote": "'We have command of the sea, my friends, and with that, we have command of everything.' - Deacon Hopper"
+			},
+			{
+				"name": "Redomestication",
+				"row": 3,
+				"prerequisites": ["The Wheel"],
+				"uniques": ["Unavailable <for [TCC]> <before discovering [Secrets of the Past]> <hidden from users>"],
+				"quote": "'Honestly, we're better off using oxen instead of cars.' - Shep Dogskull, Commonwealth rancher"
+			},
+
+			{
+				"name": "Restart the Count",
+				"cost": 15,
+				"row": 4,
+				"uniques": ["Comment [TCC has to research this and afterwards Secrets of the Past before any other Techs]","Only available <for [TCC]>","Comment [Starts the Long Count for TCC]", "Free [Counter - History] appears"],
+				"quote": "Let us count every day after the bombs fell, so that our history won't fade out. Let us avoid mistakes of old by preserving what is at our feet"
+			},
+			{
+				"name": "Secrets of the Past",
+				"row": 5,
+				"prerequisites": ["The Wheel"],
+				"uniques": ["Unavailable <for [TCC]> <before discovering [Restart the Count]> <hidden from users>"],
+				"quote": "'And the apostates cried, abandon your works, lest all the world be swallowed by the deluge. And many indeed came to follow them. Fools they were to defy the Spark! For did He not promise to never again drown the land? And, in punishment for their hubris, He sent the great flood of fire; and the unbelievers were turned to dust.' - Nathaneal Getty, priest of Ignis"
+			},
+			{
+				"name": "Iron Working",
+				"row": 7,
+				"prerequisites": ["The Wheel"],
+				"uniques": ["Unavailable <for [TCC]> <before discovering [Secrets of the Past]> <hidden from users>"],
+				"quote": "'I know not with what weapons World War III will be fought, but World War IV will be fought with sticks and stones.' - Apocryphal saying"
+			},
+			{
+				"name": "Construction",
+				"row": 9,
+				"prerequisites": ["The Wheel"],
+				"uniques": ["Unavailable <for [TCC]> <before discovering [Secrets of the Past]> <hidden from users>"],
+				"quote": "'In time, we shall make defenses that surpass even the great Aurelian Walls.' - Servius Tullius, Crimson Legion architect"
+			}
+		]
+	},
+	{
+		"columnNumber": 3,
+		"era": "Rediscovering era",
+		"techCost": 250,
+		"buildingCost": 100,
+		"wonderCost": 250,
+		"techs": [
+			{
+				"name": "Chemistry",
+				"row": 6,
+				"prerequisites": ["Writing"],
+				"uniques": ["Enables conversion of city production to [Gold]","Unavailable <for [TCC]> <before discovering [Secrets of the Past]> <hidden from users>"],
+				"quote": "For the days of my life have vanished like smoke, and my bones are grown dry like fuel for the fire."
+			},
+		]
+	},
+	{
+		"columnNumber": 4,
+		"era": "Rediscovering era",
+		"techCost": 425,
+		"buildingCost": 120,
+		"wonderCost": 300,
+		"techs": [
+			{
+				"name": "Education",
+				"row": 4,
+				"prerequisites": ["Writing"],
+				"uniques": ["Enables Research agreements","Unavailable <for [TCC]> <before discovering [Secrets of the Past]> <hidden from users>"],
+				"quote": "Hereby it is manifest that during the time men live without a common Power to keep them all in awe, they are in that condition which is called War; and such a war as is of every man against every man."
+			},
+		]
+	}
+]
