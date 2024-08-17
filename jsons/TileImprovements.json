@@ -92,6 +92,10 @@
 			"Does not need removal of [Jungle]",
 			"Does not need removal of [Toxic Waste]",
 			"Does not need removal of [Fallout]",
+			"Improves [Scrap] resource in this tile",
+			"Improves [Plastics] resource in this tile",
+			"Improves [Artifacts] resource in this tile",
+			/*
 			"Provides [1] [Coal] <in [Hill] tiles> <in tiles without [Forest]> <in tiles without [Jungle]> <in tiles without [Fallout]>",
 			"Provides [1] [Artifacts] <in [Jungle] tiles> <in [Wasteland] tiles>",
 			"Provides [1] [Electronics] <in [Jungle] tiles> <in [Badlands] tiles>",
@@ -100,6 +104,7 @@
 			"Provides [1] [Machine Parts] <in [Jungle] tiles> <in [Permafrost] tiles>",
 			"Provides [1] [Aluminum] <in [Featureless] [Permafrost] tiles>",
 			"Provides [1] [Oil] <in [Featureless] [Tundra] tiles>",
+			*/
 			"Cannot be built on [Grain] tiles",
 			"Cannot be built on [Tubers] tiles",
 			"Cannot be built on [Metal] tiles",
