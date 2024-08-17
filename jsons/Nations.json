@@ -83,12 +83,15 @@
                         "Double quantity of [Fungus] produced",
                         "Double quantity of [Hostile Fauna] produced",
                         "[+2 Food, +4 Production] from every [Camp] <before the [Neofeudal era]>",
-                        "[+1 Food, +3 Production] from every [Camp] <starting from the [Neofeudal era]> <before the [Industrial era]>",
-                        "[+2 Production] from every [Camp] <starting from the [Industrial era]>"
+                        "[+2 Production] from every [Camp] <starting from the [Neofeudal era]> <before the [Industrial era]>",
+                        "[+1 Production, -1 Food] from every [Camp] <starting from the [Industrial era]>",
+			"[-50]% growth [in all cities] <starting from the [Industrial era]>",
+			"[-50]% Yield from every [Food source] <starting from the [Industrial era]>"
+			
 		],
 		"declaringWar": "How cares about renewability? We will exploit your people!",
 		"attacked": "You ain't stopping the exploit",
-		"defeated": "F*ck it, we had our fun. Now it's your turn depleting the leftovers",
+		"defeated": "Well, we had our fun. Now it's your turn depleting the leftovers",
 		"outerColor": [0, 0, 0],
 		"innerColor": [218,192,62],
 		"cities": ["Plundercamp"]
