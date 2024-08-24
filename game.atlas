@@ -1,341 +1,1048 @@
 
 game.png
-size: 2048, 512
+size: 2048, 2048
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
 BuildingIcons/Ape Tradition Centre
   rotate: false
-  xy: 4, 62
+  xy: 504, 1068
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Artificial Feedery
   rotate: false
-  xy: 1376, 262
+  xy: 1888, 1928
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Bio Material Recycling
   rotate: false
-  xy: 212, 270
+  xy: 1264, 1828
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Black Smoker
   rotate: false
-  xy: 1376, 154
+  xy: 4, 44
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Child Care Office
   rotate: false
-  xy: 4, 4
+  xy: 1260, 100
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 BuildingIcons/Cleaner Nucleator
   rotate: false
-  xy: 1484, 262
+  xy: 1888, 1820
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Control Router
   rotate: false
-  xy: 1484, 154
+  xy: 112, 44
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Enslave Inferiors
   rotate: false
-  xy: 1592, 154
+  xy: 328, 44
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Fish Farm Regulator
   rotate: false
-  xy: 1700, 262
+  xy: 436, 44
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Freezing Room
   rotate: false
-  xy: 1700, 154
+  xy: 1044, 804
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
+BuildingIcons/Gen Restoration Project
+  rotate: false
+  xy: 1680, 1828
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/History Sustaining Center
+  rotate: false
+  xy: 420, 152
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
 BuildingIcons/Integrate Enslaved Into Society
   rotate: false
-  xy: 1808, 154
+  xy: 1152, 804
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Kindergarten
   rotate: false
-  xy: 1592, 96
+  xy: 1960, 1088
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
+BuildingIcons/Knowledge Processor
+  rotate: false
+  xy: 1180, 1328
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Landmark
+  rotate: false
+  xy: 1388, 1412
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
 BuildingIcons/Life Creation Lab
   rotate: false
-  xy: 420, 62
+  xy: 1596, 1412
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Local Business
+  rotate: false
+  xy: 1388, 1204
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Mass Breedery
   rotate: false
-  xy: 1052, 46
+  xy: 1152, 696
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Mass Energizer
   rotate: false
-  xy: 1160, 46
+  xy: 1044, 480
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Mechanized Core
   rotate: false
-  xy: 628, 270
+  xy: 1804, 1204
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Private Radio Station
+  rotate: false
+  xy: 1128, 1120
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Productivity Complex
+  rotate: false
+  xy: 1128, 912
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Public Examinum
+  rotate: false
+  xy: 1336, 996
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Rainforest Restoration Project
+  rotate: false
+  xy: 1544, 996
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Scriptum
+  rotate: false
+  xy: 1752, 996
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Secret Society
+  rotate: false
+  xy: 628, 444
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Sectleading Chamber
+  rotate: false
+  xy: 1336, 788
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Solar Power AI
   rotate: false
-  xy: 628, 62
+  xy: 1544, 788
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Track Survivors
   rotate: false
-  xy: 1484, 46
+  xy: 1044, 264
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Underground Dome
+  rotate: false
+  xy: 836, 236
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Banana Business Area
+  rotate: false
+  xy: 764, 1328
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Exposed Wire Trap
+  rotate: false
+  xy: 4, 1276
+  size: 752, 752
+  orig: 752, 752
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Jungle Replanting Zone
+  rotate: false
+  xy: 1044, 588
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Playground
   rotate: false
-  xy: 62, 4
+  xy: 1960, 1030
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
-MayaCalendar/1
+ImprovementIcons/Wire Trapped City ruins
   rotate: false
-  xy: 836, 162
+  xy: 1152, 372
   size: 100, 100
   orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Wire Trapped Energy farm
+  rotate: false
+  xy: 1044, 156
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Wire Trapped Fort
+  rotate: false
+  xy: 1152, 264
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Wire Trapped Solar collector
+  rotate: false
+  xy: 1044, 48
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Wire Trapped Survivor camp
+  rotate: false
+  xy: 1152, 156
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Wire Trapped Trench
+  rotate: false
+  xy: 1152, 48
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+MayaCalendar/1
+  rotate: false
+  xy: 1264, 1562
+  size: 50, 50
+  orig: 50, 50
   offset: 0, 0
   index: -1
 MayaCalendar/10
   rotate: false
-  xy: 1908, 370
-  size: 100, 100
-  orig: 100, 100
+  xy: 1260, 680
+  size: 50, 50
+  orig: 50, 50
   offset: 0, 0
   index: -1
 MayaCalendar/11
   rotate: false
-  xy: 836, 54
-  size: 100, 100
-  orig: 100, 100
+  xy: 1260, 622
+  size: 50, 50
+  orig: 50, 50
   offset: 0, 0
   index: -1
 MayaCalendar/12
   rotate: false
-  xy: 944, 162
-  size: 100, 100
-  orig: 100, 100
+  xy: 1260, 564
+  size: 50, 50
+  orig: 50, 50
   offset: 0, 0
   index: -1
 MayaCalendar/13
   rotate: false
-  xy: 944, 54
-  size: 100, 100
-  orig: 100, 100
+  xy: 1260, 506
+  size: 50, 50
+  orig: 50, 50
   offset: 0, 0
   index: -1
 MayaCalendar/14
   rotate: false
-  xy: 1052, 262
-  size: 100, 100
-  orig: 100, 100
+  xy: 1260, 448
+  size: 50, 50
+  orig: 50, 50
   offset: 0, 0
   index: -1
 MayaCalendar/15
   rotate: false
-  xy: 1052, 154
-  size: 100, 100
-  orig: 100, 100
+  xy: 1260, 390
+  size: 50, 50
+  orig: 50, 50
   offset: 0, 0
   index: -1
 MayaCalendar/16
   rotate: false
-  xy: 1160, 262
-  size: 100, 100
-  orig: 100, 100
+  xy: 1260, 332
+  size: 50, 50
+  orig: 50, 50
   offset: 0, 0
   index: -1
 MayaCalendar/17
   rotate: false
-  xy: 1160, 154
-  size: 100, 100
-  orig: 100, 100
+  xy: 1260, 274
+  size: 50, 50
+  orig: 50, 50
   offset: 0, 0
   index: -1
 MayaCalendar/18
   rotate: false
-  xy: 1268, 262
-  size: 100, 100
-  orig: 100, 100
+  xy: 1260, 216
+  size: 50, 50
+  orig: 50, 50
   offset: 0, 0
   index: -1
 MayaCalendar/19
   rotate: false
-  xy: 1268, 154
-  size: 100, 100
-  orig: 100, 100
+  xy: 1260, 158
+  size: 50, 50
+  orig: 50, 50
   offset: 0, 0
   index: -1
 MayaCalendar/2
   rotate: false
-  xy: 1044, 370
-  size: 100, 100
-  orig: 100, 100
+  xy: 504, 802
+  size: 50, 50
+  orig: 50, 50
   offset: 0, 0
   index: -1
 MayaCalendar/3
   rotate: false
-  xy: 1152, 370
-  size: 100, 100
-  orig: 100, 100
+  xy: 1888, 1654
+  size: 50, 50
+  orig: 50, 50
   offset: 0, 0
   index: -1
 MayaCalendar/4
   rotate: false
-  xy: 1260, 370
-  size: 100, 100
-  orig: 100, 100
+  xy: 544, 94
+  size: 50, 50
+  orig: 50, 50
   offset: 0, 0
   index: -1
 MayaCalendar/5
   rotate: false
-  xy: 1368, 370
-  size: 100, 100
-  orig: 100, 100
+  xy: 1260, 854
+  size: 50, 50
+  orig: 50, 50
   offset: 0, 0
   index: -1
 MayaCalendar/6
   rotate: false
-  xy: 1476, 370
-  size: 100, 100
-  orig: 100, 100
+  xy: 1322, 1562
+  size: 50, 50
+  orig: 50, 50
   offset: 0, 0
   index: -1
 MayaCalendar/7
   rotate: false
-  xy: 1584, 370
-  size: 100, 100
-  orig: 100, 100
+  xy: 562, 802
+  size: 50, 50
+  orig: 50, 50
   offset: 0, 0
   index: -1
 MayaCalendar/8
   rotate: false
-  xy: 1692, 370
-  size: 100, 100
-  orig: 100, 100
+  xy: 1260, 796
+  size: 50, 50
+  orig: 50, 50
   offset: 0, 0
   index: -1
 MayaCalendar/9
   rotate: false
-  xy: 1800, 370
-  size: 100, 100
-  orig: 100, 100
+  xy: 1260, 738
+  size: 50, 50
+  orig: 50, 50
   offset: 0, 0
   index: -1
 NationIcons/Cyberapes
   rotate: false
-  xy: 1592, 262
+  xy: 1888, 1712
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/TCC
+  rotate: false
+  xy: 1044, 372
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/The Mechanized
   rotate: false
-  xy: 1376, 46
+  xy: 1152, 480
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ReligionIcons/A Better Place
   rotate: false
-  xy: 4, 270
+  xy: 4, 568
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 ReligionIcons/Conservation
   rotate: false
-  xy: 212, 62
+  xy: 504, 860
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 ReligionIcons/High Mind
   rotate: false
-  xy: 420, 270
+  xy: 420, 360
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
+TileSets/FantasyHex/Tiles/Banana Business Area
+  rotate: false
+  xy: 4, 8
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Jungle Replanting Zone
+  rotate: false
+  xy: 1996, 1892
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Memorial Site
+  rotate: false
+  xy: 1960, 814
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
 TileSets/FantasyHex/Tiles/Playground
   rotate: false
-  xy: 1916, 272
+  xy: 324, 4
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
+TileSets/FantasyHex/Tiles/Preservator
+  rotate: false
+  xy: 364, 4
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Wire Trapped City ruins
+  rotate: false
+  xy: 2012, 1532
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Wire Trapped Energy farm
+  rotate: false
+  xy: 2012, 1495
+  size: 32, 29
+  orig: 32, 29
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Wire Trapped Fort
+  rotate: false
+  xy: 2012, 1455
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Wire Trapped Solar collector
+  rotate: false
+  xy: 2012, 1419
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Wire Trapped Survivor camp
+  rotate: false
+  xy: 2012, 1383
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Wire Trapped Trench
+  rotate: false
+  xy: 2012, 1347
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Anti-Aircraft Gun-Cyberapes
+  rotate: false
+  xy: 764, 1292
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Anti-Tank Gun-Cyberapes
+  rotate: false
+  xy: 1336, 1292
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Archer-Cyberapes
+  rotate: false
+  xy: 1996, 2000
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Battle Gorilla
+  rotate: false
+  xy: 920, 876
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Bomb Thrower
+  rotate: false
+  xy: 1946, 1676
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Cavalry-Cyberapes
+  rotate: false
+  xy: 544, 58
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Censor-Cyberapes
+  rotate: false
+  xy: 1260, 64
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Conscript-Cyberapes
+  rotate: false
+  xy: 1960, 994
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Crossbowman-Cyberapes
+  rotate: false
+  xy: 804, 1292
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Dragoon-Cyberapes
+  rotate: false
+  xy: 1336, 1256
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Forward Observer-Cyberapes
+  rotate: false
+  xy: 1996, 1964
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Gorilla Kid
+  rotate: false
+  xy: 44, 8
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Great Administrator-Cyberapes
+  rotate: false
+  xy: 960, 876
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Great Engineer-Cyberapes
+  rotate: false
+  xy: 1960, 958
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Great Farmer-Cyberapes
+  rotate: false
+  xy: 844, 1292
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Great Sage-Cyberapes
+  rotate: false
+  xy: 1336, 1220
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Great Scientist-Cyberapes
+  rotate: false
+  xy: 1996, 1928
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Gunman-Cyberapes
+  rotate: false
+  xy: 84, 8
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Horseman-Cyberapes
+  rotate: false
+  xy: 1000, 876
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Hussar-Cyberapes
+  rotate: false
+  xy: 1960, 922
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Kids Care Monkey
+  rotate: false
+  xy: 124, 8
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Light Cavalry-Cyberapes
+  rotate: false
+  xy: 1960, 886
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Loudmouth
+  rotate: false
+  xy: 1996, 1856
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Machete-Cyberapes
+  rotate: false
+  xy: 164, 8
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Machine Gun-Cyberapes
+  rotate: false
+  xy: 1960, 850
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Mandrill
+  rotate: false
+  xy: 1996, 1820
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Marksman-Cyberapes
+  rotate: false
+  xy: 204, 8
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Modern Infantry-Cyberapes
+  rotate: false
+  xy: 1996, 1784
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/NBC Infantry-Cyberapes
+  rotate: false
+  xy: 244, 8
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/NBC Marksman-Cyberapes
+  rotate: false
+  xy: 1996, 1748
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/NFT Monkey
+  rotate: false
+  xy: 284, 8
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Noisemaker
+  rotate: false
+  xy: 1996, 1712
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Philosopher-Cyberapes
+  rotate: false
+  xy: 1986, 1676
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Primal Gorilla
+  rotate: false
+  xy: 404, 8
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Rifleman-Cyberapes
+  rotate: false
+  xy: 444, 8
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Scouter Group
+  rotate: false
+  xy: 484, 8
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Skirmisher-Cyberapes
+  rotate: false
+  xy: 1960, 778
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Soldier-Cyberapes
+  rotate: false
+  xy: 1946, 1640
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Spearman-Cyberapes
+  rotate: false
+  xy: 1986, 1640
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Terrain Controller
+  rotate: false
+  xy: 2012, 1604
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Trooper-Cyberapes
+  rotate: false
+  xy: 2012, 1568
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Worker-Cyberapes
+  rotate: false
+  xy: 2012, 1311
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+UnitIcons/Battle Gorilla
+  rotate: false
+  xy: 4, 776
+  size: 492, 492
+  orig: 492, 492
+  offset: 0, 0
+  index: -1
+UnitIcons/Bomb Thrower
+  rotate: false
+  xy: 4, 360
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/Counter - Economy
+  rotate: false
+  xy: 972, 1328
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/Counter - Food
+  rotate: false
+  xy: 1264, 1620
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/Counter - History
+  rotate: false
+  xy: 1472, 1828
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/Counter - Industry
+  rotate: false
+  xy: 4, 152
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/Death Counter
+  rotate: false
+  xy: 212, 360
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/Death Laser
+  rotate: false
+  xy: 220, 44
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Gorilla Kid
+  rotate: false
+  xy: 212, 152
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
 UnitIcons/Gunner Drone
   rotate: false
-  xy: 1808, 262
+  xy: 1044, 696
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Kids Care Monkey
   rotate: false
-  xy: 1916, 312
+  xy: 1960, 1146
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
+UnitIcons/Loudmouth
+  rotate: false
+  xy: 1596, 1204
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/Mandrill
+  rotate: false
+  xy: 1804, 1412
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/NFT Monkey
+  rotate: false
+  xy: 712, 860
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/Noisemaker
+  rotate: false
+  xy: 920, 1120
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/Primal Gorilla
+  rotate: false
+  xy: 764, 1536
+  size: 492, 492
+  orig: 492, 492
+  offset: 0, 0
+  index: -1
 UnitIcons/Scouter Group
   rotate: false
-  xy: 1268, 46
+  xy: 1152, 588
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
+UnitIcons/Secret Bowman
+  rotate: false
+  xy: 628, 652
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/Sectleader
+  rotate: false
+  xy: 628, 236
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
 UnitIcons/Terrain Controller
   rotate: false
-  xy: 836, 270
+  xy: 836, 444
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Bone Breaker
+  rotate: false
+  xy: 212, 568
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Fast Whooping
+  rotate: false
+  xy: 1472, 1620
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Gorilla Rage
+  rotate: false
+  xy: 1680, 1620
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/HQ Communication
+  rotate: false
+  xy: 420, 568
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Molotov
+  rotate: false
+  xy: 712, 1068
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Pest Elimination
+  rotate: false
+  xy: 920, 912
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Strong Foot
+  rotate: false
+  xy: 1752, 788
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Surprising Expression
+  rotate: false
+  xy: 628, 28
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Tank Breaker
+  rotate: false
+  xy: 836, 652
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Wall Rammer
+  rotate: false
+  xy: 836, 28
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
